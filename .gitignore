@@ -1,0 +1,24 @@
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.Python
+
+# Environment variables - NEVER commit this
+.env
+
+# Model weights - too large for GitHub
+*.pth
+*.pth.tar
+backend/weights/
+
+# Uploads and test files
+uploads/
+test_images/
+
+# ChromaDB vector database
+backend/rag/chroma_db/
+
+# OS files
+.DS_Store
+Thumbs.db
