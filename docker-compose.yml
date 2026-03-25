@@ -1,0 +1,45 @@
+services:
+
+  # PostgreSQL Database
+  postgres:
+    image: postgres:15
+    container_name: mediscan_postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: mediscan
+    ports:
+      - "5433:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  # Redis (for Celery task queue)
+  redis:
+    image: redis:7-alpine
+    container_name: mediscan_redis
+    ports:
+      - "6379:6379"
+
+  # FastAPI Backend
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    container_name: mediscan_backend
+    ports:
+      - "8000:8000"
+    environment:
+      - GROQ_API_KEY=${GROQ_API_KEY}
+      - DATABASE_URL=postgresql://postgres:password@postgres:5432/mediscan
+      - REDIS_URL=redis://redis:6379
+      - CLOUDINARY_CLOUD_NAME=${CLOUDINARY_CLOUD_NAME}
+      - CLOUDINARY_API_KEY=${CLOUDINARY_API_KEY}
+      - CLOUDINARY_API_SECRET=${CLOUDINARY_API_SECRET}
+    depends_on:
+      - postgres
+      - redis
+    volumes:
+      - ./backend/rag/chroma_db:/app/backend/rag/chroma_db
+
+volumes:
+  postgres_data:
