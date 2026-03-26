@@ -4,8 +4,6 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-client = Groq(api_key=os.getenv("GROQ_API_KEY"))
-
 
 def run_report_agent(
     patient_name: str,
@@ -16,6 +14,7 @@ def run_report_agent(
     rag_context: str,
     body_location: str = None
 ) -> str:
+    client = Groq(api_key=os.getenv("GROQ_API_KEY"))
     """
     Agent 3 — Report Synthesis Agent.
     Generates structured clinical report using CV findings,
