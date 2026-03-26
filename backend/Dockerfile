@@ -22,7 +22,9 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy the full project
 COPY . .
-
+# Copy model weights
+COPY backend/models/skin_efficientnet_best.pth /app/backend/models/
+COPY backend/models/retinal_v2_best.pth /app/backend/models/
 # Expose port
 EXPOSE 8000
 
