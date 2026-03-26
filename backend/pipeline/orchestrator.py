@@ -5,13 +5,13 @@ from backend.agents.rag_agent import run_rag_agent
 from backend.agents.report_agent import run_report_agent
 
 
-# ─── State Definition ───────────────────────────────────────────────
-# This is the shared state that gets passed between all agents
+# ─── State Definition ────────────────────────────────────────────────
 class MediScanState(TypedDict):
     # Inputs
     patient_name: str
     image_path: str
-    scan_hint: Optional[str]       # optional user hint: 'xray', 'skin', 'retinal'
+    scan_hint: Optional[str]
+    body_location: Optional[str]      # NEW — e.g. "lower lip", "back", "forearm"
 
     # Agent 1 outputs
     scan_type: Optional[str]
@@ -29,10 +29,9 @@ class MediScanState(TypedDict):
     error: Optional[str]
 
 
-# ─── Node Functions (one per agent) ─────────────────────────────────
+# ─── Node Functions ──────────────────────────────────────────────────
 
 def vision_node(state: MediScanState) -> MediScanState:
-    """Node 1: Run the Vision Triage Agent"""
     print("\n[Orchestrator] Running Vision Agent...")
     try:
         result = run_vision_agent(
@@ -53,12 +52,12 @@ def vision_node(state: MediScanState) -> MediScanState:
 
 
 def rag_node(state: MediScanState) -> MediScanState:
-    """Node 2: Run the RAG Literature Agent"""
     print("\n[Orchestrator] Running RAG Agent...")
     try:
         context = run_rag_agent(
             scan_type=state["scan_type"],
-            findings=state["findings"]
+            findings=state["findings"],
+            body_location=state.get("body_location")   # NEW
         )
         return {**state, "rag_context": context, "error": None}
     except Exception as e:
@@ -67,7 +66,6 @@ def rag_node(state: MediScanState) -> MediScanState:
 
 
 def report_node(state: MediScanState) -> MediScanState:
-    """Node 3: Run the Report Synthesis Agent"""
     print("\n[Orchestrator] Running Report Agent...")
     try:
         report = run_report_agent(
@@ -76,7 +74,8 @@ def report_node(state: MediScanState) -> MediScanState:
             findings=state["findings"],
             risk_level=state["risk_level"],
             top_finding=state["top_finding"],
-            rag_context=state["rag_context"]
+            rag_context=state["rag_context"],
+            body_location=state.get("body_location")   # NEW
         )
         return {**state, "final_report": report, "error": None}
     except Exception as e:
@@ -87,27 +86,22 @@ def report_node(state: MediScanState) -> MediScanState:
 # ─── Conditional Edge ────────────────────────────────────────────────
 
 def should_continue(state: MediScanState) -> str:
-    """Stop the pipeline if a critical error occurred in vision agent."""
     if state.get("error") and not state.get("scan_type"):
-        print("[Orchestrator] Critical error, stopping pipeline.")
         return "end"
     return "continue"
 
 
-# ─── Build the Graph ─────────────────────────────────────────────────
+# ─── Build Graph ─────────────────────────────────────────────────────
 
 def build_pipeline() -> StateGraph:
     graph = StateGraph(MediScanState)
 
-    # Add nodes
     graph.add_node("vision_agent", vision_node)
     graph.add_node("rag_agent", rag_node)
     graph.add_node("report_agent", report_node)
 
-    # Entry point
     graph.set_entry_point("vision_agent")
 
-    # Vision → conditional check → RAG
     graph.add_conditional_edges(
         "vision_agent",
         should_continue,
@@ -117,34 +111,26 @@ def build_pipeline() -> StateGraph:
         }
     )
 
-    # RAG → Report → End
     graph.add_edge("rag_agent", "report_agent")
     graph.add_edge("report_agent", END)
 
     return graph.compile()
 
 
-# ─── Main Entry Point ────────────────────────────────────────────────
-
 pipeline = build_pipeline()
 
 
-def run_pipeline(patient_name: str, image_path: str, scan_hint: str = None) -> dict:
-    """
-    Run the full MediScan pipeline.
-
-    Args:
-        patient_name: name of the patient
-        image_path: local path to the uploaded image
-        scan_hint: optional type hint ('xray', 'skin', 'retinal')
-
-    Returns:
-        Final state dict with report and all findings
-    """
+def run_pipeline(
+    patient_name: str,
+    image_path: str,
+    scan_hint: str = None,
+    body_location: str = None       # NEW
+) -> dict:
     initial_state: MediScanState = {
         "patient_name": patient_name,
         "image_path": image_path,
         "scan_hint": scan_hint,
+        "body_location": body_location,
         "scan_type": None,
         "findings": None,
         "risk_level": None,
@@ -156,6 +142,8 @@ def run_pipeline(patient_name: str, image_path: str, scan_hint: str = None) -> d
 
     print(f"\n{'='*50}")
     print(f"[MediScan] Starting pipeline for: {patient_name}")
+    if body_location:
+        print(f"[MediScan] Body location: {body_location}")
     print(f"{'='*50}")
 
     final_state = pipeline.invoke(initial_state)

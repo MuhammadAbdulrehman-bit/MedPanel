@@ -60,6 +60,7 @@ def health():
 async def analyze_image(
     patient_name: str = Form(...),
     scan_hint: str = Form(None),
+    body_location: str = Form(None),
     file: UploadFile = File(...)
 ):
     """
@@ -89,7 +90,8 @@ async def analyze_image(
         result = run_pipeline(
             patient_name=patient_name,
             image_path=file_path,
-            scan_hint=scan_hint
+            scan_hint=scan_hint,
+            body_location=body_location
         )
 
         # Clean up temp file

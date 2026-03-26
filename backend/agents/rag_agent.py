@@ -1,9 +1,7 @@
 import os
 import chromadb
 from sentence_transformers import SentenceTransformer
-from chromadb.config import Settings
 
-# Initialize ChromaDB client
 CHROMA_PATH = os.path.join(os.path.dirname(__file__), "..", "rag", "chroma_db")
 
 client = chromadb.PersistentClient(path=CHROMA_PATH)
@@ -11,32 +9,27 @@ embedder = SentenceTransformer("all-MiniLM-L6-v2")
 
 
 def get_collection(topic: str):
-    """Get or create a ChromaDB collection for a topic."""
     return client.get_or_create_collection(name=f"medical_{topic}")
 
 
-def run_rag_agent(scan_type: str, findings: list) -> str:
+def run_rag_agent(scan_type: str, findings: list, body_location: str = None) -> str:
     """
     Agent 2 — RAG Literature Agent.
-    Takes CV findings and retrieves relevant medical knowledge.
-
-    Args:
-        scan_type: 'chest_xray', 'skin_lesion', or 'retinal'
-        findings: list of dicts with condition + confidence
-
-    Returns:
-        string of relevant medical context
+    Retrieves relevant medical knowledge based on CV findings and body location.
     """
     if not findings:
         return "No specific findings to look up."
 
-    # Build a query from top findings
     top_conditions = [f["condition"] for f in findings[:3]]
-    query = f"Clinical information about {', '.join(top_conditions)} in {scan_type} imaging"
 
-    print(f"[RAG Agent] Querying knowledge base: {query}")
+    # Build query — include location if provided
+    if body_location and scan_type == "skin_lesion":
+        query = f"skin lesion on {body_location}: {', '.join(top_conditions)} differential diagnosis location"
+        print(f"[RAG Agent] Location-aware query: {query}")
+    else:
+        query = f"Clinical information about {', '.join(top_conditions)} in {scan_type} imaging"
+        print(f"[RAG Agent] Querying knowledge base: {query}")
 
-    # Map scan type to collection topic
     topic_map = {
         "chest_xray": "xray",
         "skin_lesion": "skin",
@@ -49,45 +42,54 @@ def run_rag_agent(scan_type: str, findings: list) -> str:
         count = collection.count()
 
         if count == 0:
-            print("[RAG Agent] Knowledge base empty, using fallback context")
-            return get_fallback_context(scan_type, top_conditions)
+            print("[RAG Agent] Knowledge base empty, using fallback")
+            return get_fallback_context(scan_type, top_conditions, body_location)
 
-        # Embed the query
         query_embedding = embedder.encode(query).tolist()
 
-        # Query ChromaDB
         results = collection.query(
             query_embeddings=[query_embedding],
-            n_results=min(3, count)
+            n_results=min(4, count)
         )
 
         if results and results["documents"]:
             context = "\n\n".join(results["documents"][0])
             print(f"[RAG Agent] Found {len(results['documents'][0])} relevant chunks")
+
+            # If location provided for skin, do a second targeted query
+            if body_location and scan_type == "skin_lesion":
+                location_query = f"{body_location} skin lesion location differential"
+                location_embedding = embedder.encode(location_query).tolist()
+                location_results = collection.query(
+                    query_embeddings=[location_embedding],
+                    n_results=min(2, count)
+                )
+                if location_results and location_results["documents"]:
+                    extra = "\n\n".join(location_results["documents"][0])
+                    context = context + "\n\n" + extra
+                    print("[RAG Agent] Added location-specific context")
+
             return context
         else:
-            return get_fallback_context(scan_type, top_conditions)
+            return get_fallback_context(scan_type, top_conditions, body_location)
 
     except Exception as e:
-        print(f"[RAG Agent] Error querying ChromaDB: {e}")
-        return get_fallback_context(scan_type, top_conditions)
+        print(f"[RAG Agent] Error: {e}")
+        return get_fallback_context(scan_type, top_conditions, body_location)
 
 
-def get_fallback_context(scan_type: str, conditions: list) -> str:
-    """
-    Fallback medical context when ChromaDB is empty.
-    Hardcoded clinical summaries for common conditions.
-    """
+def get_fallback_context(scan_type: str, conditions: list, body_location: str = None) -> str:
     fallbacks = {
-        "Pneumonia": "Pneumonia is an infection that inflames air sacs in lungs. Treatment includes antibiotics for bacterial pneumonia. Chest X-ray shows consolidation or infiltrates.",
-        "Cardiomegaly": "Cardiomegaly indicates an enlarged heart, often associated with heart failure, hypertension, or cardiomyopathy. Requires echocardiogram follow-up.",
-        "Effusion": "Pleural effusion is fluid accumulation around the lungs. Can indicate heart failure, infection, or malignancy. May require thoracentesis.",
-        "Atelectasis": "Atelectasis is partial or complete lung collapse. Common post-surgery. Treatment includes breathing exercises and physiotherapy.",
-        "Melanoma": "Melanoma is the most dangerous skin cancer. Early detection is critical. ABCDE rule: Asymmetry, Border, Color, Diameter, Evolution.",
-        "Basal Cell Carcinoma": "Most common skin cancer. Rarely metastasizes but locally destructive. Treatment: surgical excision or Mohs surgery.",
-        "No DR": "No diabetic retinopathy detected. Continue regular annual screening for diabetic patients.",
-        "Moderate DR": "Moderate non-proliferative diabetic retinopathy. Indicates microaneurysms and dot hemorrhages. Referral to ophthalmologist recommended.",
-        "Proliferative DR": "Proliferative diabetic retinopathy — advanced stage with new blood vessel growth. Urgent ophthalmology referral required. Risk of vision loss.",
+        "Pneumonia": "Pneumonia presents as consolidation or infiltrates on X-ray. Infiltration + Consolidation together strongly suggest bacterial pneumonia.",
+        "Cardiomegaly": "Cardiomegaly indicates enlarged heart, often associated with heart failure. Requires echocardiogram follow-up.",
+        "Effusion": "Pleural effusion is fluid around the lungs. Can indicate heart failure, infection, or malignancy.",
+        "Melanoma": "Melanoma is the most dangerous skin cancer. ABCDE rule applies. Can occur anywhere on body.",
+        "Basal Cell Carcinoma": "BCC is most common on sun-exposed areas especially face and neck. Rarely on trunk.",
+        "Actinic Keratosis": "AK occurs almost exclusively on sun-exposed skin. Lower lip location is high risk for SCC progression.",
+        "Dermatofibroma": "Dermatofibroma predominantly found on lower legs. Benign but requires monitoring.",
+        "No DR": "No diabetic retinopathy detected. Continue annual screening.",
+        "Moderate DR": "Moderate DR requires ophthalmology referral within 3-6 months.",
+        "Proliferative DR": "Proliferative DR requires urgent ophthalmology referral within 1 week.",
     }
 
     context_parts = []
@@ -95,7 +97,15 @@ def get_fallback_context(scan_type: str, conditions: list) -> str:
         if condition in fallbacks:
             context_parts.append(fallbacks[condition])
 
+    if body_location and scan_type == "skin_lesion":
+        context_parts.append(
+            f"Location context: Lesion reported on {body_location}. "
+            f"Location is important for differential diagnosis of skin lesions. "
+            f"BCC and AK occur almost exclusively on sun-exposed areas. "
+            f"Dermatofibroma is most common on lower legs."
+        )
+
     if context_parts:
         return "\n\n".join(context_parts)
     else:
-        return f"Standard clinical evaluation recommended for {', '.join(conditions)}. Consult relevant specialist based on findings."
+        return f"Standard clinical evaluation recommended for {', '.join(conditions)}."
