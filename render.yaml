@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: mediscan-api
+    runtime: docker
+    dockerfilePath: ./backend/Dockerfile
+    plan: free
+    envVars:
+      - key: GROQ_API_KEY
+        sync: false
+      - key: DATABASE_URL
+        value: sqlite:///./mediscan.db
+      - key: REDIS_URL
+        value: redis://localhost:6379
