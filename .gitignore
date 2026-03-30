@@ -22,3 +22,7 @@ backend/rag/chroma_db/
 # OS files
 .DS_Store
 Thumbs.db
+
+node_modules/
+dist/
+env/
