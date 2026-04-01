@@ -1,0 +1,56 @@
+
+DISEASE:
+
+basal_cell_carcinoma
+
+CATEGORY:
+
+skin_lesion
+
+ALIASES:
+
+basal cell epithelioma, rodent ulcer, nonmelanoma skin cancer (NMSC), basaloma
+
+DESCRIPTION:
+
+Basal cell carcinoma (BCC) is the most common human malignancy, originating from basaloid keratinocytes in the epidermis' basal layer or hair follicle infundibulum, characterized by slow, locally invasive growth with rare metastasis (<0.1%) but high recurrence if untreated. Arising from uncontrolled proliferation due to PTCH1/SHH pathway mutations (85%), TP53 (50%), triggered by chronic UV exposure causing DNA thymine dimers, BCC subtypes include nodular (60-80%, pearly nodule), superficial (15-20%, multifocal erythematous plaques), infiltrative/morpheaform (sclerosing white plaque), pigmented (branching vessels brown), and fibroepithelioma (pink reticulated). Incidence: 4 million US/year, rising 10% decade with aging/fair skin populations; 95% sun-exposed, lifetime risk 30% Caucasians. Pathophysiology: fails apoptosis, stromal dependence (induces desmoplasia), perineural invasion 1-5% high-risk (morphpheaform central face). Aggressively locally destructive (cartilage/bone erosion), incompletely excised recurs 30-50%. Gorlin syndrome (nevoid BCC syndrome, PTCH1 germline, 1000s BCCs jaw cysts palm pits). Biopsy confirms palisading nuclei, retraction artifact, mucin pools. Mohs subtypes risk: infiltrative > nodular > superficial.
+
+VISUAL APPEARANCE:
+
+Nodular classic: translucent pearl-like papule/nodule 3-10mm with telangiectatic arborizing vessels, central dell/crust/ulcer (rodent ulcer bleeds heals cycles), rolled pearly border. Superficial: erythematous thin plaque "piece of sandpaper," thread-like border, multifocal trunk. Morpheaform: ill-defined white-yellow sclerotic plaque scar-like, atrophic center. Pigmented: black-blue globules/ovoid nests speckled. Dermoscopy Menzies criteria (sens 93%): absent pigment network + ≥1 (arborizing vessels tree-branching, ulceration, blue-gray ovoid nests/globules, leaf-like/red rim, spoke-wheel). RCM (reflectance confocal): tumor islands round/oval dark/bright DEJ, polarized streaming nuclei, clefting stroma slits. Advanced: rodent ulcer crateriform excavated bone exposure. Amelanotic pink shiny ulcerated. Confocal/LC-OCT: non-invasive streaming/clefts avoids biopsy low-risk. Evolves months-years slow.
+
+TYPICAL LOCATIONS:
+
+Head/neck 80% (nose 25%, cheeks/forehead/ears/periorbital high-risk), ears/cartilage invasive, upper trunk superficial, limbs rare. Central face/periocular/nose/temple/ear preauricular morpheaform high-risk.
+
+SYMPTOMS:
+
+Asymptomatic early; itch/pruritus (30%), bleed/crust/ooze minor trauma (rodent cycles), pain/tenderness advanced invasion (perineural 5%), non-healing sore.
+
+RISK FACTORS:
+
+UV cumulative (fair skin I/II Fitzpatrick OR 20, freckling/red hair/blue eyes), ionizing radiation/arsenic/PUVA (OR 5-10), Gorlin syndrome (autosomal dominant 90% by 20s), chronic scars (Marjolin ulcer SCC overlap), immunosuppression (transplant OR 10x, lymphoma), older age >40 (90%), male (1.5x).
+
+CLINICAL SIGNS:
+
+Pearly rolled telangiectasia, ulceration crusting, induration palpation, palpable subclinical extension 2-5mm beyond visible. Regional nodes rare (mets <0.01%).
+
+DIFFERENTIAL DIAGNOSIS:
+
+Pearly lesions dermoscopy/biopsy differentiates. Squamous cell carcinoma (SCC, hyperkeratotic indurated keratin/granulation, dermoscopy glomerular vessels/surface scaling/glomeruli, invades faster mets 5%). Seborrheic keratosis (stuck-on waxy umbilicated comedo plugs/milia cysts, dermatosis papulosa nigra dark). Actinic keratosis (rough sandpaper erythro/scaly precursor SCC, resolves scrape). Keratoacanthoma (volcano symmetric crater rapid 4-6wk dome). Pyogenic granuloma (friable red pedunculated bleed history). Intradermal nevus (dome uniform no vessels). Trichoepithelioma (small symmetric pearly non-ulcerative). Merkel cell (rapid violet dome T-antigen PCR). Amelanotic melanoma (asymmetric pigment network). Why detailed: all pearly/bleeding sun-exposed; BCC arborizing vessels/absent network vs SCC keratin/glomeruli vs SK milia/plugs (dermoscopy 90% sens/spec avoids 50% biopsy). Morpheaform scar vs morphea (no vessels indurated biopsy). Superficial psoriasis/discoid eczema (itchy plaques resolve steroid). Biopsy gold: palisading peripheral vs SCC keratin pearls. RCM tumor islands differentiates amelanotic. Recurrence rolled edge vs granulation. Low-risk superficial no ulceration vs high-risk ulcerated >2cm. Clinical sens 70%; dermoscopy 95%. Ugly duckling + ABCDE (asymmetry/border/color/diameter>5mm/evolving) biopsy.
+
+LOCATION CLUES:
+
+Location risk-stratifies recurrence/metastasis guides therapy margins. Nose/nose ala/chin/central face/periocular/ear/preauricular/temple morpheaform/infiltrative: high-risk 10-20% recur, Mohs mandatory 4mm margin, perineural MRI if large. Ears cartilage destruction oto destructive. Periorbital/lips functional risk RT contraindicated. Trunk/extremities superficial multifocal: low-risk curettage/5-FU/PDT/ imiquimod, 2mm margin. Scalp aggressive vascular. Upper trunk women superficial. Limbs indolent. Changes profoundly: central face Mohs/path margins intraop; trunk non-surgical topical if <2cm; ears partial amputation if advanced. Associated eyelid ectropion functional. Pediatric Gorlin multiple facial. Immunosuppressed widespread trunk. Dermoscopy arborizing all but morpheaform glomerular. Recur central face 30% vs peripheral 5%. Metastatic rare lung/bone nodes (CT/PET stage IV vismodegib).
+
+SEVERITY AND RISK:
+
+Low risk (localized 99% cure, high-risk recurrent 10-20%, metastatic <0.1% 5y survival 50% lungs/bone).
+
+RECOMMENDED ACTION:
+
+Biopsy confirm subtype, risk-stratify (size>2cm/4mm depth/ulcer/infiltrative/central face), low-risk excision 4mm margin/ED&C/cryo/PDT/imiquimod; high-risk Mohs micrographic (recurs <1%), RT inoperable, vismodegib/sonidegib hedgehog inhibitors advanced/metastatic (ORR 40-60%), cemiplimab PD-1 stage IV. Sunscreen q2h/self-exam q3mo, niacinamide prevention.
+
+COMMON MISTAKES:
+
+Observation pearly non-healing (biopsy all rolled vessels), shave biopsy high-risk (miss depth/subclinical 30%), ED&C morpheaform (recurs 40%), no dermoscopy (sens drop 50%), superficial as nodular (topical ok first), ignoring perineural symptoms (MRI T1 nerve enhancement), routine staging CT early T1 (yield <1%), recurrence no Mohs, immunosuppression no topical first, Gorlin no genetics

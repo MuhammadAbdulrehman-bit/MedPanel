@@ -1,0 +1,56 @@
+
+DISEASE:
+
+moderate_dr
+
+CATEGORY:
+
+retinal
+
+ALIASES:
+
+moderate nonproliferative diabetic retinopathy, moderate NPDR, ETDRS level 43-53
+
+DESCRIPTION:
+
+Moderate diabetic retinopathy (moderate NPDR, ETDRS 43-53) is an intermediate stage of non-proliferative diabetic retinopathy characterized by multiple microaneurysms (MA, >20 total or ≥5 per quadrant), intraretinal dot/blot hemorrhages (DBH/IRH, up to moderate severity), hard exudates (HE), cotton wool spots (CWS, nerve fiber infarcts), with possible mild venous beading (VB, <1/3 circumference 1 quadrant) and early intraretinal microvascular abnormalities (IRMA, shunt vessels), but excluding the 4-2-1 severe criteria (no ≥20 DBH 1 hemifield, no VB/IRMA ≥1 quadrant, no NVD/NVE). Represents advanced capillary non-perfusion/occlusion (pericyte loss 70%), plasma leakage (HE rings), ischemia (CWS 1-15), with 12-27% 1-year risk to severe NPDR/PDR requiring panretinal photocoagulation (PRP). Prevalence 20-30% type 2 DM 5-10y, 40% type 1 >10y; UWF reveals peripheral ischemia 2x standard fields. OCT detects subclinical CME/DRIL (disorganization retinal inner layers). Progression accelerated pregnancy/HbA1c>9%.
+
+VISUAL APPEARANCE:
+
+Fundus: scattered red dots/clusters MA/DBH posterior pole/mid-periphery (5-20 total), yellow waxy HE macular/parafoveal circinate rings, 1-5 fluffy white CWS arcades, subtle VB loops venules, fine IRMA red thread-like; vessels attenuated tortuous. OCT: intraretinal hyper/hyporeflective cysts, HE hyperreflective outer plexiform, CWS nerve fiber swelling, ellipsoid disruption mild. FA: MA hyperflourescent leak, DBH hypoflourescent block, CWS ischemia surround, HE petaloid leak, capillary non-perfusion mid-peripheral. UWF: peripheral DBH/IRMA double standard. Progression: CWS → VB → IRMA shadow. Mimics: HTN retinopathy (flame > blot).
+
+TYPICAL LOCATIONS:
+
+Posterior pole macula/parapapillary (HE/CWS 60%), temporal arcade bundles (DBH 30%), mid-peripheral quadrants (IRMA/VB 20%), bilateral symmetric 85%. UWF peripheral doubles lesions.
+
+SYMPTOMS:
+
+Asymptomatic 80%; mild blur/distortion (subclinical CME 20%), floaters rare CWS/VB until severe.
+
+RISK FACTORS:
+
+DM >10y (OR 5), HbA1c >8.5% (OR 3), HTN (OR 2.5), nephropathy (OR 6), dyslipidemia (OR 2), anemia/pregnancy/smoking.
+
+CLINICAL SIGNS:
+
+Multiple red dots/yellow spots/white fluffies posterior, mild vessel irregularity, normal disc/fovea reflex OU symmetric.
+
+DIFFERENTIAL DIAGNOSIS:
+
+Multi-lesion retinopathy vs mimics; ETDRS criteria/OCT/FA differentiates. Mild NPDR (<20 MA, no CWS/HE/VB/IRMA, 5% progress). Severe NPDR (4-2-1 rule: ≥20 DBH 1 hemifield OR VB/IRMA ≥1 quadrant OR NVD/NVE). HTN retinopathy (flame hemorrhages AV nicking silver wiring > blot DBH, no HE rings). BRVO (sector wedge HE/DBH collateral vessels). Radiation (telangiectasia hard exudates history). HIV retinopathy (bilateral CWS no MA/HE). Ocular ischemic syndrome (mid-peripheral IRMA VB severe). Why detailed: overlapping dots/spots/white; moderate DR blot DBH+HE+CWS (UWF peripheral IRMA) vs mild MA-only; HTN flame linear preretinal no leak FA; BRVO clock-hour sector; OCTA FAZ enlargement 0.5mm²+ non-perfusion distinguishes. FA IRMA non-leak vs NVE leak; stability 6mo moderate vs rapid severe. Proteinuria → DN likely. Type 2 insidious vs type 1 rapid. Sens 7-field 85%; UWF 95%.
+
+LOCATION CLUES:
+
+Posterior pole HE/CWS macular: CSME risk OCT urgent (anti-VEGF). Temporal arcade DBH/IRMA bundles: peripheral ischemia UWF (q4-6mo). Mid-peripheral VB 1 quadrant: pre-high-risk (q3-4mo). Asymmetric OU: superimposed BRVO/HTN. No posterior + peripheral UWF: ischemia-dominant (fenofibrate). Macular circinate rings: focal/grid laser candidate. Optic disc no NVD. Changes profoundly: macular HE → OCT/inject; peripheral IRMA → UWF PR P prep; bilateral posterior → HbA1c/BP aggressive; unilateral → vascular workup. Pregnancy any moderate → q1-3mo. Type 1 parapapillary → nephropathy screen.
+
+SEVERITY AND RISK:
+
+Medium risk (12-27% 1y severe NPDR/PDR, q6-8mo screen).
+
+RECOMMENDED ACTION:
+
+q6-8mo dilated UWF/OCT (AAO), HbA1c <7%/BP <130/80/fenofibrate (FIELD 30% slow), no laser/inject unless CSME (focal/grid), smoking cessation.
+
+COMMON MISTAKES:
+
+Annual screen (progresses 20%/y), miss UWF peripheral IRMA (50%), call severe early (over-PRP), no OCT HE (subclinical CME), ignore fenofibrate/dyslipidemia, pregnancy q12mo, asymmetric no vascular workup, moderate + proteinuria skip nephrology.

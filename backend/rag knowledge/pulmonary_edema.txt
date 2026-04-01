@@ -1,0 +1,56 @@
+
+DISEASE:
+
+pulmonary_edema
+
+CATEGORY:
+
+chest_xray
+
+ALIASES:
+
+lung water, cardiogenic edema, noncardiogenic edema, pulmonary congestion
+
+DESCRIPTION:
+
+Pulmonary edema is the abnormal accumulation of fluid in the lung's interstitial and alveolar spaces due to transvascular fluid leakage from pulmonary capillaries, impairing gas exchange and causing hypoxemic respiratory failure. Primarily classified as cardiogenic (elevated hydrostatic pressure from left heart failure, PCWP >18 mmHg) or noncardiogenic (increased permeability from ARDS/injury, normal PCWP), it results from Starling force imbalance: hydrostatic pressure exceeds oncotic/colloid osmotic pressure, with disrupted endothelial barrier in permeability types. Cardiogenic comprises 80% cases, complicating acute decompensated heart failure (ADHF) in 90% hospitalized patients; noncardiogenic 20%, from sepsis, aspiration, neurogenic, high-altitude, or toxins. Pathophysiology stages: interstitial (red cell diapedesis, lymph overload), peribronchial cuffing, then alveolar flooding (pink frothy sputum), surfactant washout causing atelectasis. Incidence: 1-2% ICU admissions, mortality 20-40% if intubated. BNP >400 pg/mL favors cardiogenic (sens 90%). Fluid overload worsens (CVP >12 mmHg).
+
+VISUAL APPEARANCE:
+
+On chest X-ray, early interstitial: cephalization (upper lobe vascular prominence), Kerley B lines (1-2cm peripheral septal thickening, 70% sens), perihilar haze, peribronchial cuffing (>1/3 bronchus diameter). Alveolar phase: batwing/butterfly central opacities (hilar radiating fan-shaped, spares periphery 20%), air bronchograms, fissural thickening (Holman sign), pleural effusions (blunt 50%). Cardiogenic: cardiomegaly (CTR >0.5), smooth margins, bilateral symmetric basal; noncardiogenic: patchy asymmetric, ground-glass, no cardiomegaly. Supine: dependent posterior. CT: interlobular septal (3mm spacing GGO, 7mm edema), crazy-paving, dependent gradient absent noncardiogenic. US: B-lines (>3/zone, 94% sens), pleural line irregularities. Progression: hours cardiogenic, slower permeability. Mimics: pneumonia (airspace irregular), aspiration (dependent), hemorrhage (no gradient).
+
+TYPICAL LOCATIONS:
+
+Perihilar hilar (batwing 60% acute), basal symmetric (chronic/interstitial), upper lobe diversion (cephalization early). Bilateral 90%; right upper diversion classic CHF. Pleural 70% small right. Patchy peripheral noncardiogenic.
+
+SYMPTOMS:
+
+Acute dyspnea (90%, orthopnea, PND), pink frothy sputum (40%), anxiety/air hunger, cough (productive bloody), chest tightness, fatigue. Severe: cyanosis, respiratory failure (RR>30, SpO2<90%).
+
+RISK FACTORS:
+
+Heart failure/AMI (40%), hypertension (30%), valvular disease, arrhythmias (AFib), renal failure (fluid overload), pneumonia/toxins (noncardio), high altitude (>8000ft), heroin/ARDS, post-CABG (10%), diabetes/obesity, age>65, nonadherence meds/salt.
+
+CLINICAL SIGNS:
+
+Bibasilar crackles (80%), S3 gallop, JVD/hepatojugular reflux, cool extremities (cardiogenic), tachycardia/hypotension, wheezes (cardiac asthma), pulsus alternans.
+
+DIFFERENTIAL DIAGNOSIS:
+
+Pulmonary edema confounds with airspace diseases sharing dyspnea/opacity; multimodality/clinical keys. Pneumonia (focal consolidation migratory, fever/leukocytosis, +sputum Cx, air bronchograms but volume loss absent; procalcitonin >0.5 favors vs BNP>100 edema). ARDS/noncardiogenic (patchy peripheral GGO, no cardiomegaly/effusion, PaO2/FiO2<300, risk factor sepsis/aspiration; echo normal EF). Diffuse alveolar hemorrhage (DAH, hemoptysis 70%, drop Hgb, no gradient, bronchoalveolar lavage siderophages >20%; edema BNP low). Pulmonary alveolar proteinosis (crazy-paving chronic, milky lavage PAS+ lipoproteinosis, no acute SOB). Aspiration (dependent right lower, anaerobe Cx, history). Interstitial lung disease (ILD, honeycombing chronic, PFTs restrictive, HRCT traction bronchiectasis). CHF vs renal (echo EF<40% vs normal, BNP/NT-proBNP high first). Bilateral effusions (meniscus mobile, no batwing). Why detailed: overlapping batwing (severe pneumonia), Kerley lines (lymphangitic CA rare), cephalization (pulm HTN); but edema smooth symmetric cardiomegaly/pleural effusion (60% sens), rapid response diuretics (weight drop 2kg/24h). CXR specificity 70%; echo (LV dysfunction), Swan-Ganz PCWP>18 cardiogenic. Serial films: edema clears central-to-peripheral; pneumonia consolidates. Labs: troponin (AMI), D-dimer (PE overlap), troponin/CK-MB. US B-lines diffuse vs focal pneumonia. Noncardiogenic no S3/JVD. 25% initial misdiagnosis; echo differentiates 95%.
+
+LOCATION CLUES:
+
+Distribution predicts etiology, guides therapy. Central perihilar batwing: acute cardiogenic flash edema (AMI/HTN crisis, urgent lasix/nitro); upper lobe diversion: mild-moderate CHF (diuretics outpatient). Bilateral basal symmetric + pleural + cardiomegaly: chronic systolic HF (echo/ACEi/BB). Asymmetric patchy peripheral GGO: noncardiogenic ARDS (vent low tidal, prone); no cardiomegaly key. Right upper predominant: mitral regurg (murmur, TEE jet). Posterior dependent supine: neurogenic/high-alt (history, resolves descent). Unilateral: PE infarct (wedge opacity not batwing), contusion trauma. Kerley B costophrenic: interstitial early reversible. Fissural fluid: acute. No gradient/ground-glass diffuse: PAP/DAH. Changes profoundly: batwing admit ICU nitro-diuresis; basal stable BB uptitrate; ARDS PEEP recruit. Associated consolidation: pneumonia trigger; effusion compressive. Pediatric viral; altitude symmetric resolves O2. Symptoms + loc: PND batwing = cardio; trauma patchy = contusion. CT refines permeability (septal crazy-paving). Progression cephalization→batwing→clearing predicts diuretic response. Quantify: >50% opacity intubate risk.
+
+SEVERITY AND RISK:
+
+Medium/High risk (mild interstitial low, alveolar symptomatic medium 10-20% ICU, refractory high 40% mortality).
+
+RECOMMENDED ACTION:
+
+ABCs high-flow O2/NIV/CPAP (reduces intubation 50%), loop diuretics (lasix 40-80mg IV), vasodilators (nitro 10mcg/min), inotropes (dobutamine EF<40%), treat cause (PCI AMI, pacing AFib). Echo urgent, BNP/Tn/Ts. Serial CXR q6-12h. Noncardiogenic steroids/PaO2 goal.
+
+COMMON MISTAKES:
+
+Treating as pneumonia first (diuresis test 2h response), missing noncardiogenic (echo normal, ARDSnet), overdiuresis (AKI Cr rise >0.3), ignoring flash (beta-blocker overdose), basal crackles as ILD (BNP rules), no NIV (intubates 30% unnecessary), unilateral as local (check echo global), early PEEP overload (hypotension), static CXR (dynamic clearing key), overlooking toxins/high-alt (history)

@@ -1,0 +1,56 @@
+
+DISEASE:
+
+melanoma
+
+CATEGORY:
+
+skin_lesion
+
+ALIASES:
+
+malignant melanoma, cutaneous melanoma, nodular melanoma, superficial spreading melanoma, lentigo maligna melanoma, acral lentiginous melanoma
+
+DESCRIPTION:
+
+Melanoma arises from malignant transformation of melanocytes, aggressive neoplasm with propensity for lymphatic/hematogenous metastasis, responsible for 75% skin cancer deaths despite 1% incidence; subtypes superficial spreading (70%, radial growth indolent), nodular (15-30%, vertical aggressive), lentigo maligna (in situ radial elderly sun-damaged), acral lentiginous (2-8% palms/soles nails darker skin), desmoplastic (sclerosing neurotropic), amelanotic (pink aggressive). Pathogenesis UV-induced mutations CUV1A/BRAF V600E (50%, targeted vemurafenib), NRAS (20%), KIT acral/mucosal, TERT promoter; immunosurveillance PD-L1/NLRP1 failure. Breslow depth primary prognostic (0.8mm 98% 5y survival vs 4mm 50%), ulceration/mitotic rate/node status. Incidence 20/100k rising 3%/y, 100k US cases/8k deaths 2026; Stage I 98-99% 5y, II 70-90%, III 40-78%, IV 15-20% immunotherapy era. Sentinel node biopsy (SNB) SLN-32%/SLN+ 5y 50% worse; adjuvant pembrolizumab/nivo Stage IIB-C/III.
+
+VISUAL APPEARANCE:
+
+ABCDE: Asymmetry >2 axes, Border irregular/ragged/notched/radial segments, Color variegated brown-black-red-white-blue >3 shades (amelanotic pink), Diameter >6mm (smaller nodular), Evolving size/shape/color/bleed. Superficial spreading: macular irregular border pigment network disruption. Nodular: dome uniform black rapid vertical. Lentigo maligna: tan-brown asymmetric forehead/cheek rhomboids. Dermoscopy chaos/chaos (asymmetry network atypical pigment globules blue veil streaks shiny white lines polymorphous vessels) vs banal regular (sens 90%). RCM: atypical nests pagetoid spread disjunct pores. Confocal bright pleomorphic cells irregular contours. Evolves months satellite nodules in-transit lymphangitic. Ulcerated high-risk. Confounds SK/BCC/nevus 20-30% biopsy yield.
+
+TYPICAL LOCATIONS:
+
+Intermittent sun trunk/legs women/back men (70%), head/neck chronic sun (15%), acral palms/soles/subungual (5% darker skin), mucosal anorectal/vulvovaginal rare poor prog.
+
+SYMPTOMS:
+
+Asymptomatic early; itch/pruritus (20%), bleed/crust/ooze minor trauma, pain nodular/ulcerated, functional lymphedema transit.
+
+RISK FACTORS:
+
+UV cumulative/intermittent (OR 2 sunburns childhood), Fitzpatrick I-II (OR 3), dysplastic nevus syndrome (>100 nevi FAMMM OR 5-10% lifetime), prior melanoma (OR 10), family history germline CDKN2A/BAP1, immunosuppression transplant (OR 5), xeroderma pigmentosum, tanning beds <35y (OR 2).
+
+CLINICAL SIGNS:
+
+Ugly duckling outlier pattern, induration palpable >1mm, satellite <2cm, transit >2cm groin/axilla, dermoscopy chaos >1 criteria.
+
+DIFFERENTIAL DIAGNOSIS:
+
+Pigmented lesions dermoscopy/7pt/chaos differentiates. Benign nevus (symmetric regular network/globules <6mm stable). Seborrheic keratosis (waxy stuck-on milia comedo gyri cretaceous). BCC pigmented (arborizing vessels leaf-like blue globules rolled pearly). Pigmented SCC/Bowen's (keratin granular white glomerular vessels). Blue nevus (uniform slate cellular stable). Spitz (symmetric dome kids starburst regular). DF (peripheral network central white dimple). Why detailed: asymmetry/color/border evolution; melanoma chaos polymorphous atypical network/blue veil/radial streaks/irregular globules/shiny lines/polymorphous vessels (score >2-4 biopsy) vs nevus single regular pattern; SK orange pseudohorn milia vs melanoma blue veil; BCC arborizing absent network vs melanoma streaks; SCC surface scale keratin vs melanoma regression white. RCM pagetoid/dendrites atypical avoids 50% excision. Stability 3-6mo benign vs doubles melanoma. Biopsy 20-40% benign; cost dermoscopy saves $300M/y. Pattern analysis > algorithm sens/spec 95%.
+
+LOCATION CLUES:
+
+Trunk/back men: superficial spreading indolent SLN 20% (wide excision 2cm SNB if >1mm). Head/neck chronic sun: lentigo maligna radial in situ (Mohs/St Stain 1-2cm). Acral palms/soles/subungual: ALMS poor prog SLN mandatory biopsy Hutchinson sign (OR 30% invasive). Extremities women legs: nodular vertical aggressive (SNB >0.8mm). Face/periorbital: desmoplastic neurotropic RT adjuvant. Mucosal anorectal: KIT mutated imatinib SLN. Changes profoundly: acral any asymmetry excise (radial phase long missed); trunk satellite/in-transit high IIIB; head/neck skull base MRI perineural; subungual digit amputation >1mm; mucosal stage IV workup. Dark skin acral 65% vs sun trunk 10%. Dermoscopy volar parallel ridge chaos melanoma vs benign lattice. Progression acral > mucosal > trunk > head > extremity.
+
+SEVERITY AND RISK:
+
+Medium/High risk (in situ 100% 5y, T1a 99%, T1b 92%, T2 81%, T3 71%, T4 50%; N+ 60%, M1 20% immunotherapy).
+
+RECOMMENDED ACTION:
+
+Excision 0.5-2cm margin (in situ 0.5cm, <2mm 1cm, >2mm 2cm SLN if >0.8mm/Clark IV/ulcer), adjuvant nivo/pembro/dab+tram Stage IIB-IV (KEYNOTE 716 50% DFS), targeted BRAF/MEK Stage III-IV, RT desmoplastic, surveillance q3-6mo PET-CT Stage III.
+
+COMMON MISTAKES:
+
+Observe ABCDE (progresses 3mo), shave biopsy thick (miss depth), no SLN <1mm ulcerated (20% pos), narrow margin acral (recurs 30%), ignore mucosal/acral darker skin (late Stage IV), dermoscopy omit (50% misdx), adjuvant skip IIB (35% recur), incomplete path (no mitoses/ulcer/Breslow).

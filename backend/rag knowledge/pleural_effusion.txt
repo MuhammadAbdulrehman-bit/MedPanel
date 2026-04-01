@@ -1,0 +1,56 @@
+
+DISEASE:
+
+pleural_effusion
+
+CATEGORY:
+
+chest_xray
+
+ALIASES:
+
+water on the lungs, pleural fluid collection, hydrothorax, wet lung
+
+DESCRIPTION:
+
+Pleural effusion refers to the abnormal accumulation of fluid in the pleural space, the thin cavity between the visceral pleura covering the lungs and the parietal pleura lining the chest wall and diaphragm. Normally, this space contains only 10-20 mL of lubricating fluid to allow smooth lung expansion during breathing, maintained by a balance of hydrostatic and oncotic pressures governed by Starling's forces. When disrupted, excess fluid builds up, compressing lung tissue and impairing gas exchange. Effusions are classified as transudates (low protein, watery, due to systemic pressure imbalances like heart failure) or exudates (high protein, cellular, from local pleural inflammation or injury like infection or malignancy). Transudates result from ultrafiltration imbalances without capillary permeability changes, while exudates involve increased permeability from cytokines, neutrophils, or tumor invasion. Globally, pleural effusion affects over 1.5 million people annually in the US alone, with higher incidence in hospitalized patients (up to 20% of admissions). It complicates 40% of lung cancer cases and 60% of heart failure patients, often bilateral in systemic causes but unilateral in focal ones. Pathophysiology involves either overproduction (e.g., inflammation leaks plasma proteins) or underabsorption (e.g., lymphatic blockage by tumor). Fluid analysis via Light's criteria (pleural/serum protein >0.5, LDH >0.6, or pleural LDH >2/3 upper serum limit) distinguishes types with 98% sensitivity but 20% specificity for exudates, sometimes misclassifying transudates diuretic-treated. Chronic effusions lead to fibrosis, trapped lung, or organization into pseudotumors. Subtypes include hemothorax (bloody, trauma), chylothorax (milky, lymphatic), empyema (pus, infection), and pseudochylothorax (cholesterol-rich, TB).
+
+VISUAL APPEARANCE:
+
+On chest X-ray (CXR), free-flowing pleural effusion appears as blunting of the costophrenic angle (meniscus sign) at >200 mL volume, with progressive opacification of the lower lung zone, veiling of vascular markings, and silhouetting of the hemidiaphragm (right higher, dome-shaped; left deeper, trough-like). Lateral views show posterior gutter fluid >1 cm deep. Massive effusions (>1L) cause contralateral mediastinal shift, lobar collapse, or "white-out" hemithorax. Loculated effusions form lenticular or biconvex opacities with split pleura sign (enhanced visceral/parietal layers on CT). On ultrasound, effusion shows anechoic (simple) or complex echogenic (exudate, debris) layering fluid with "quad sign" (pleura-fluid interfaces) and dynamic air-bronchograms (mobile lung tissue). CT excels: free fluid is sickle-shaped posteriorly in supine views (-10 to 40 HU), layering in dependent fissures; exudates average 7.2 HU (range -21 to 28), transudates 10.1 HU (no significant difference, p=0.24). Loculation appears as smooth, homogeneous masses with scalloped borders; pleural thickening (>3mm) or nodularity suggests malignancy. MRI differentiates via fluid tracking, but CT/echo guide thoracentesis (spine sign on lateral CXR). Decubitus views confirm mobility (free-flowing shifts >1cm). Artifacts mimic: skin folds (extrapleural), pulmonary ligament fluid (tear-drop).
+
+TYPICAL LOCATIONS:
+
+Predominantly dependent regions due to gravity: posterior costophrenic sulci (supine CXR/CT), lateral recesses upright, subpulmonic (between lung base and diaphragm, mimicking elevation). Right-sided common in heart failure/liver disease (60%); left in pancreatitis/post-cardiac surgery. Unilateral favors exudate (90% pneumonia/malignancy). Bilateral symmetric in transudates (CHF 95%). Loculations occur interlobular fissures, paracardiac, or posteromedial (post-surgical). Subdiaphragmatic extension mimics ascites. Rare: interlobar, mediastinal.
+
+SYMPTOMS:
+
+Patients often experience progressive dyspnea (70-80%, worse supine, relieved leaning forward), non-productive cough, and pleuritic chest pain (sharp, unilateral, inspiratory). Large effusions (>500mL) cause orthopnea, nocturnal cough, or hypoxemia from shunt. Systemic: fever/chills (infection), weight loss (malignancy/TB), edema/fatigue (CHF). Asymptomatic small effusions (<300mL) found incidentally. Massive bilateral: acute respiratory failure. Chronic: fatigue, recurrent infections.
+
+RISK FACTORS:
+
+Heart failure (most common transudate, 500/100k incidence), cirrhosis/nephrosis, malignancy (lung/breast/lymphoma, 15-20% exudates), pneumonia (300/100k), PE, hypoalbuminemia (<3g/dL), renal failure on dialysis, TB (endemic areas), asbestos exposure, post-op (CABG 20%), autoimmune (RA/SLE), medications (nitrofurantoin, amiodarone). Age >65, smoking (3x lung ca), immobility (PE), travel (TB). Males higher malignancy; females Meigs'.
+
+CLINICAL SIGNS:
+
+Reduced breath sounds/voice transmission, stony dullness to percussion (lower zones), decreased chest expansion ipsilaterally. Massive: tracheal deviation, egophony above effusion (compressed lung), bronchial breathing. Vital signs: tachycardia, tachypnea, hypoxia. Systemic: JVD/hepatomegaly (CHF), clubbing (CA/TB), fever (infection).
+
+DIFFERENTIAL DIAGNOSIS:
+
+Pleural effusions mimic numerous entities; differentiation demands fluid analysis, imaging, history. Transudates (Light's criteria met <20%): CHF (bilateral, history CAD/edema, BNP>100pg/mL pleural, clear fluid, low LDH), cirrhosis (right>left, ascites, SAAG>1.1), nephrotic (proteinuria>3.5g/d), myxedema (hypothyroid). Confused because all pressure-related, but CHF has kerley lines, cirrhosis low albumin<2.5g/dL, nephrotic cholesterol crystals. Exudates (80%): Parapneumonia (fever, infiltrate, PMN>50k/uL, pH>7.2, glucose>60), empyema (pH<7.2, +gram stain/cx, loculated), TB (lymphs>50%, ADA>40U/L, endemic), malignancy (bloody, cytology 60% sens, low glucose<60 if heavy tumor), PE (sudden dyspnea, D-dimer high, bloody exudate, wedge infarct). Empyema vs complicated parapneumonia: empyema frank pus, +cultures, needs drainage; parapneumonia sterile, abx suffice. TB vs RA (lymphs, glucose low, RA CCP+, symmetric small joint arthritis). Malignancy vs mesothelioma (asbestos, local invasion, hyaluronate high). Hemothorax (trauma, Hct>50% pleural blood) vs bloody exudate (Hct<50%). Chylothorax (milky post-trauma, trig>110mg/dL, lymphoscintigraphy) vs pseudochylothorax (TB/cholesterol crystals). Post-CABG (unilateral left, eosinophils) vs viral pleuritis (self-limited). Why confused: overlapping symptoms (dyspnea), imaging (blunting), but fluid LDH/protein, cell count, culture, cytology differentiate 90%. Light's misclassifies 25% transudates as exudates if diuresed (use fluid cholesterol<45mg/dL, albumin gradient>1.2g/dL correct). Neutrophils: acute (PE/pneumonia); lymphs: chronic (TB/CA/CHF). Eosinophils>10%: air/blood/drugs. Rare: pancreatic (amylase>serum 3x, left), esophageal rupture (salivary amylase, pneumomediastinum), lupus (LE cells, ANA pleural high). Always rule out PE (V/Q or CTpa if risk).
+
+LOCATION CLUES:
+
+Location profoundly alters diagnosis probability, guiding etiology. Bilateral symmetric basal blunting: transudate 90% (CHF/cirrhosis/nephrotic), systemic overload; investigate BNP, echo, LFTs. Right-sided unilateral: liver disease 40% (ascites leak), Meigs' (ovarian fibroma resolves post-resection), amebiasis; subdiaphragmatic air/fluid levels on CT differentiate abscess. Left-sided: pancreatitis 30% (high amylase), post-gastric surgery, splenic injury; gastric pull-up leaks mimic. Unilateral any side exudate 75% malignancy/pneumonia/TB/PE. Upper lobe: TB 20% (reactivation), actinomyces; basal pneumonia. Loculated fissural: post-op/surgery/empyema (fissure acts barrier), malignancy (adenoca favors); free-flowing rules out. Posterobasal supine: common all, but persistent loculated suggests organizing empyema. Subpulmonic (diaphragm "elevated"): lateral decubitus shifts up; mimics mass but USS shows fluid. Paracardiac: CHF or lymphoma; CT split pleura. Apical: rare, asbestos/prior surgery. Side difference: right larger in CHF (liver compression diaphragm); left in post-pneumonectomy. With atelectasis (hazy opacity): compressive basal collapse mimics/masked by effusion; USS dynamic sign confirms. Contralateral shift: massive free-flowing (vs fixed tumor). Pleural-based mass + effusion: mesothelioma (encases lung). With rib destruction: met CA. Infrapulmonary: mimics ascites, USS lateral spine sign. Changes diagnosis: unilateral exudate mandates CT/USS/thoracentesis; bilateral watchful if small transudate suspected. Pediatric: viral; elderly malignancy. Post-trauma loculated hemothorax needs VATS. Location + symptoms: pleuritic pain + unilateral = PE/infection; orthopnea + bilateral = CHF. Imaging location predicts yield: posterior gutter best for tap.
+
+SEVERITY AND RISK:
+
+Medium risk (symptomatic relief urgent, but mortality tied to cause: 15-20% 30-day if malignancy, 5% pneumonia, 50% if undrained empyema). Small (<500mL) low; massive/high-output recurrent high.
+
+RECOMMENDED ACTION:
+
+Urgent CXR/USS confirm; therapeutic thoracentesis if symptomatic (>1L safe remove), analyze (cell count, protein/LDH/glucose/pH/gram/cytology/cx/ADA/trig). Treat cause: diuretics/digoxin CHF, abx pneumonia (ceftriaxone+macrolide), chemo CA, drainage empyema (chest tube pH<7.2). Recurrent: pleurodesis (talc), indwelling catheter. Echo rules CHF, CTpa PE, bronch/PET malignancy. Monitor SpO2, serial imaging.
+
+COMMON MISTAKES:
+
+Misclassifying transudate as exudate post-diuresis (use albumin gradient); delaying drainage empyema (fibrothorax); missing PE/malignancy in unilateral (no cytology first); overcalling small blunting (normal <20yo); ignoring contralateral shift (tension); tapping without USS (pneumo 5-10%); assuming bilateral=CHF (miss TB bilateral 10%); cytology negative doesn't rule CA (repeat 3x or biopsy); loculated as parenchymal (CT differentiates); CT HU for type (no value); missing chyle (feed fat, tap milky). Asymptomatic watchful ok small, but quantify

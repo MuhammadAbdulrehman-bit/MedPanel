@@ -1,0 +1,56 @@
+
+DISEASE:
+
+pneumonia
+
+CATEGORY:
+
+chest_xray
+
+ALIASES:
+
+lung infection, bronchopneumonia, lobar pneumonia, community-acquired pneumonia (CAP), hospital-acquired pneumonia (HAP), ventilator-associated pneumonia (VAP), aspiration pneumonia
+
+DESCRIPTION:
+
+Pneumonia is an acute inflammatory condition of the lung parenchyma primarily affecting alveoli and small airways, caused by infectious agents (bacteria 50%, viruses 30%, fungi 10%, aspiration 10%) leading to fluid/pus consolidation, impaired gas exchange, and systemic inflammatory response; classified anatomically (lobar uniform vs bronchopneumonia patchy), acquisition (CAP outpatient, HAP nosocomial >48h admission, VAP intubated >48h), pathogen (typical S.pneumo lobar, atypical Mycoplasma interstitial "walking"). Pathophysiology: pathogen inhalation/aspiration/microaspiration → neutrophil influx/edema → consolidation hypoxia; S.pneumoniae capsule evades phagocytosis polysaccharide vaccine PCV20; COVID/SARS2 diffuse alveolar damage (DAD); Pseudomonas biofilm VAP. Incidence 250/10k adults/y US, 1M hospitalizations/50k deaths; mortality CAP 5-10% outpatient/20-30% ICU/50% septic. Risk CURB-65 score (confusion/urea>7/BPS<90/age>65/RR>30) predicts 30d mortality <1% 0pts vs 57% 5pts. CXR gold standard; blood/sputum culture guides de-escalation.
+
+VISUAL APPEARANCE:
+
+CXR consolidations: lobar right lower lobe (RLL opacity air bronchograms silhouette sign), bronchopneumonia multifocal patchy basal peribronchial thickening, interstitial atypical bilateral reticular Kerley lines, aspiration right upper lobe (RUL supine)/posterior segment RLL. Progression: air bronchograms patent bronchi contrast alveoli, bulging fissure expansion, cavitation necrotizing (Klebsiella/Staph), pleural effusion blunting costophrenic angle. HRCT ground glass opacities (GGO viral), tree-in-bud endobronchial spread, crazy paving COVID, reverse halo fungal. US B-lines consolidation hepatization shred sign. Resolution 4-12wk organized pneumonia; cavitation warns empyema/abscess. Mimics CHF (batwing perihilar), atelectasis volume loss.
+
+TYPICAL LOCATIONS:
+
+Lower lobes gravity-dependent (70% RLL bilat), RUL aspiration supine, lingula middle lobe poor drainage kids, right>left 2:1. Multilobar 30% severe.
+
+SYMPTOMS:
+
+Fever/chills rigors (90%), productive cough rust/gelatinous green sputum (S.pneumo), dyspnea tachypnea RR>30 (60%), pleuritic chest pain (40%), fatigue myalgia, elderly confusion/delirium (40%), GI nausea diarrhea atypical.
+
+RISK FACTORS:
+
+Age extremes <5/>65 (OR 5), smoking (OR 4), COPD/asthma (OR 4), diabetes/CHF (OR 3), immunosuppression HIV/chemo/transplant (OR 10), alcohol (OR 3), aspiration dysphagia/stroke, influenza/COVID antecedent.
+
+CLINICAL SIGNS:
+
+Crackles/bronchial breath sounds consolidation (80%), egophony "E>A", dullness percussion, tachypnea hypoxia SpO2<92%, sepsis SIRS criteria.
+
+DIFFERENTIAL DIAGNOSIS:
+
+Acute respiratory consolidations clinical/radiographic/micro differentiates. CHF (bilat perihilar GGO Kerley B-lines BNP>400 cardiomegaly improves diuretic). Atelectasis (volume loss shift mediastinum no fever). Pulmonary embolism (Wedge infarct peripheral hypoxia no consolidation D-dimer/VQ). Lung cancer (solitary cavitate chronic weight loss). TB (apical cavitary upper lobe night sweats AFB). Organizing pneumonia (persistent migratory peripheral CT no pathogen steroid response). ARDS (diffuse bilateral GGO acute P/F<200). Fungal (endemic histo/blasto Southwest/Ohio valley subacute fatigue). Why detailed: focal consolidations fever sputum; pneumonia air bronchogram sputum culture positive vs CHF vascular pedicle widening B-lines BNP; atelectasis platypnea no leukocytosis; PE S1Q3T3 RV strain; cancer spiculated mass PET-avid; TB caseating granuloma Quantiferon; OP reverse halo traction bronchiectasis; ARDS non-cardiogenic refractory. Procalcitonin <0.25 viral vs >0.5 bacterial guides abx. CURB-65 vs PSI mortality. Blood culture 10% yield S.pneumo. Legionella U/A sens 80%. Sens CXR 70% early HRCT 95%.
+
+LOCATION CLUES:
+
+RLL unilobar: classic CAP S.pneumo outpatient abx (azithro/amox-clav). [web://208] Bilat lower lobes: viral influenza/COVID supportive Oseltamivir<48h. RUL multilobar necrotizing: aspiration Klebsiella carbapenem. Lingula middle recurrent: nontypeable H.flu abx. Upper lobe cavitary: TB/PJP HIV CD4<200. Peripheral patchy migratory: eosinophilic/organizing pneumonia steroid. Posterior basal pleural empyema: Staph aureus MRSA vanc+clinda drain. RUL+RML kids Mycoplasma macrolide. Changes profoundly: RLL PSI I outpatient vs bilat CURB>3 ICU; aspiration RUL pna+dysphagia swallow eval; upper lobe smoker>50 cancer workup CT; recurrent same lobe obstruction bronch. Supine intubated VAP gram-neg coverage zosyn; endemic travel histo U/A/Ag. Progression multilobar>unilobar mortality x3. Kids viral lingula vs adult bacterial RLL.
+
+SEVERITY AND RISK:
+
+Medium/High risk (CAP 5-10% mortality outpatient/30% ICU; HAP 20-50%, VAP 40%).
+
+RECOMMENDED ACTION:
+
+CURB-65 0-1 outpatient amox-clav/doxy/azithro 5d, 2 macrolide+beta-lactam, ≥3 hospital ceftriaxone+azithro/vanc+zasythro MRSA Legionella; viral supportive Tamiflu<48h COVID Paxlovid; fungal ICU voriconazole/immunosuppressed; O2 SpO2<92%/NIV HFNC, steroids severe COVID/dex<7d, fluids cautious sepsis. Follow-up CXR 6-12wk high-risk.
+
+COMMON MISTAKES:
+
+Empiric broad abx viral (procalcitonin<0.25), outpatient CURB>2 (30d death 15%), miss Legionella U/A (10% CAP), vanc monotherapy MRSA (resistance), no swallow eval aspiration (recurs 50%), short abx course<5d (relapse 20%), steroids bacterial (worsens), no repeat CXR organized pneumonia (persistent 30%)

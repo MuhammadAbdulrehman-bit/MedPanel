@@ -1,0 +1,56 @@
+
+DISEASE:
+
+actinic_keratosis
+
+CATEGORY:
+
+skin_lesion
+
+ALIASES:
+
+solar keratosis, senile keratosis, AK, pre-cancerous scaly spot
+
+DESCRIPTION:
+
+Actinic keratosis (AK) represents a precancerous proliferation of atypical keratinocytes in the epidermis' basal layer, induced by chronic cumulative ultraviolet (UV) radiation damage, manifesting as rough, scaly patches on sun-exposed skin with 0.025-16% annual progression risk to squamous cell carcinoma (SCC) in situ or invasive. Pathophysiology involves UV-induced p53 mutations (>90%), hyperproliferation of suprabasal keratinocytes forming parakeratotic scale, atypical nuclei (budding, hyperchromatic), disordered maturation; field cancerization affects contiguous subclinical lesions (subclinical 5-15 per visible). Graded Olsen I-VI: I macular rough, II tan adherent scale, III thick hyperkeratosis, IV/palmoplantar yellow hypertrophic, V hyperkeratotic wart-like, VI hyperplastic cutaneous horn. Incidence: 10-30% fair skin >40y, 60% >65y, 100k US progress to SCC yearly; risk factors multiply (60% field-directed therapy). Histology: atypical keratinocytes full epidermis thickness, no dermal invasion (vs SCC); LELC (lymphoepithelioma-like) rare immune. Multiple therapies target visible/subclinical: 25% subclinical progress.
+
+VISUAL APPEARANCE:
+
+Rough sandpaper-like erythematous macule/papule 3-10mm (up to cm), adherent yellow-white scale/crust, "stuck-on" feel, tender pinch; color pink/red/brown/pigmented (10%), indurated palpable. Variants: cutaneous horn (elongated spike >1cm), lichen planus-like (violaceous prickly), atrophic (thin telangiectatic). Dermoscopy strawberry pattern (red pseudo-rhombs white rails follicular openings 90% sens), surface keratin (orange/yellow), red dots (vessels), hair pin/glomerular loops, white poroid rim. Pigmented: brown dots/fingerprint-like/reticular, perifollicular halo grey, rhomboids. RCM: atypical honeycomb (enlarged interkeratinocyte spaces), nuclear pleomorphism streaming. Progression: thickens bleeds ulcerates signals SCC. Hyperplastic >1cm higher risk. Confocal distinguishes SCC (dermal nests).
+
+TYPICAL LOCATIONS:
+
+Bald scalp (men 40%), face/forehead/temples/cheeks/nose (30%), ears, dorsal hands/forearms V (25%), lips (cheilitis actinic), upper chest/shoulders women V-neck. Bald scalp highest SCC progression.
+
+SYMPTOMS:
+
+Asymptomatic 70%; pruritus/burn/sting (30% touch/prick), tenderness, cosmetic concern; advanced bleed/ooze/pain SCC transformation.
+
+RISK FACTORS:
+
+Fitzpatrick I-III (OR 10-20), age >40 (cumulative UV), male (outdoor), prior SCC/NMSC (OR 5), organ transplant/immunosuppression (OR 65-250x), PUVA/arsenic/psoralen, HPV, genetic XP (100%), >10 AKs (field).
+
+CLINICAL SIGNS:
+
+Rough velvety adherent scale "dry sandpaper," pinch tender, ill-defined, multiple contiguous field, induration/ulcer/cutaneous horn suspicious SCC. Dermoscopy confirms.
+
+DIFFERENTIAL DIAGNOSIS:
+
+Precancerous sun lesions dermoscopy/biopsy distinguishes. SCC in situ/Bowen's (sharply demarcated red plaque scaling, dermoscopy glomerular vessels surface scale, biopsy full-thickness atypia invasion). Seborrheic keratosis (stuck-on waxy umbilicated milia cysts comedo plugs, dermoscopy fingerprint-like/moth-eaten). Actinic cheilitis (lip diffuse white plaque erosion, biopsy keratinocyte atypia). Porokeratosis (cornoid lamella thread-like rim dermoscopy). Lichen simplex (lichenified pruritic plaque). Psoriasis (Auspitz/silver scale). Discoid lupus (scarring atrophy telangiectasia). Benign lichenoid keratosis (symptomatic irritated SK). BCC (pearly rolled telangiectasia arborizing). Why detailed: all scaly sun-exposed; AK follicular strawberry/red dots keratin vs SK milia/plugs vs SCC glomerular/granular white (dermoscopy 92% sens/spec reduces biopsy 40%). Biopsy if hypertrophic >1cm/indurated/bleeding (Olsen III+); RCM atypical honeycomb avoids. Hyperplastic vs viral wart (mosaic acanthotic). Pigmented vs lentigo (uniform regular). Field multiple AK vs few SCC. Progression risk: indurated 20-30% vs flat 5%. Confocal/RCM sens 90% SCC. Serial photo evolution. Proliferation marker Ki67 high suspicious. 20-30% biopsied benign; guidelines biopsy hypertrophic only.
+
+LOCATION CLUES:
+
+Site guides therapy/risk. Bald scalp/balding men forehead/temples: highest SCC 16-20%, field-directed cryotherapy combo imiquimod/PDT (covers subclinical). Face/nose/cheeks/ears: cosmetic/functional cosmeceutical topical 5FU/imiquimod first-line strong rec. Dorsal hands V: thin skin multiple PDT conditional superior cosmesis. Lips actinic cheilitis: vermilion diffuse 5FU/imiquimod/PDT (lips high progression). Chest/shoulders women low density superficial curettage/PDT. Hypertrophic palmoplantar yellow: aggressive debridement + topical. Changes profoundly: scalp field PDT/imiquimod (recurs 10-20% untreated field); face single lesion cryosurgery; lips no cryotherapy pain/scarring. Immunosuppressed face/scalp widespread systemic retinoid + topical. Pediatric rare PUVA. Associated lip leukoplakia SCC. Dermoscopy strawberry universal sun-damaged. Multiple contiguous field mandates field therapy vs solitary lesion-directed. Progression scalp > face > limbs.
+
+SEVERITY AND RISK:
+
+Low risk (0.025% annual SCC progression individually, 10-20% field, treatable 95% cure).
+
+RECOMMENDED ACTION:
+
+Sun protection SPF50+ q2h/hat/clothing lifelong strong rec, field therapy multiple (>5-10/10cm²): topical imiquimod 5%/3.75% 2-4wk (strong), 5FU 4%/0.5% 2-4wk (strong), cryosurgery single/hypertrophic (strong), PDT ALA/delta-ALA (conditional cosmesis superior), diclofenac 3% gel 60-90d (conditional). Follow-up q3-6mo immunosuppressed q1-3mo. Biopsy suspicious.
+
+COMMON MISTAKES:
+
+Observation flat (subclinical progress), cryotherapy field multiple (misses 30-50% subclinical recurs), no sun protection (new AKs 20%/y), biopsy all flat (unneeded 70% benign), imiquimod lips/scalp pain intolerance no pretreatment steroid, hypertrophic debride first (enhances penetration), immunosuppressed topical only (add systemic acitretin), dermoscopy omitted (confounds SK/SCC), no field therapy isolated lesions (recurrence cluster), short follow-up (peaks 1-2y)

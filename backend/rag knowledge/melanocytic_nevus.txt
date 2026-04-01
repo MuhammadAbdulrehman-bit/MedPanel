@@ -1,0 +1,56 @@
+
+DISEASE:
+
+melanocytic_nevus
+
+CATEGORY:
+
+skin_lesion
+
+ALIASES:
+
+mole, pigmented nevus, nevocytic nevus, common mole, beauty mark
+
+DESCRIPTION:
+
+A melanocytic nevus is a benign proliferation of melanocytes, the pigment-producing cells derived from neural crest, forming well-circumscribed nests or sheets in the epidermis, dermal-epidermal junction, or dermis, representing a maturation spectrum from junctional (flat macular) to compound (raised papule) to intradermal (fading dome/soft). Nevogenesis involves arrested migration/convergence of melanocytes during embryogenesis (congenital) or postnatal proliferation triggered by UV/estrogen/genetic factors (MC1R, BRAF V600E low-load benign), with nevus cells maturing into epithelioid/spindle forms lacking atypia. Classified as acquired (80%, appear 0-30y peak 2nd/3rd decade regress 30-50% by 70y) vs congenital (1-2% incidence, small <1.5cm, garment 1.5-10cm, giant >20cm rare NRAS mutated 15% melanoma risk). Histology: junctional nests uniform size/shape, maturation dermal descent, no mitoses>1/mm²/asymmetry/suprabasal pagetoid. Prevalence 10-40 average adults, >50 high risk; dysplastic atypical nevi (familial 5-10% melanoma risk marker). Biopsy nests bridging rete ridges lamellar fibrosis (dysplastic). Benign 99.9%; melanoma precursor dysplastic syndrome FAMMM (CDKN2A).
+
+VISUAL APPEARANCE:
+
+Uniform brown/black/tan macule/papule 1-6mm dome/smooth, regular round/oval borders, symmetric color (homogeneous/light-dark center). Junctional: flat freckle-like; compound: central papule macular rim; intradermal: flesh-toned elevated soft papilloma-like. Halo nevus (white rim CD8+ regression). Cockade (target ring-like). Dermoscopy patterns: reticular (delicate uniform network boxes brown-black), globular (round/ovoid aggregates loaded/unloaded beige-red-brown), cobblestone (confluent globules thick), homogeneous (diffuse brown-grey), starburst (peripheral globules kids Spitz mimic). Benign criteria: symmetry single pattern, regular network/globules/hairpin vessels, absence blue veil/streaks/irregular pigment. RCM: uniform nests round bright cells regular honeycomb. Confocal distinguishes melanoma (asymmetry >2 axes, irregular contours). Evolves stable or fades.
+
+TYPICAL LOCATIONS:
+
+Trunk/extremities (80%, back men, legs women intermittent UV), face/scalp/neck (20% intradermal), acral palms/soles rare (lattice/parallel benign), genitals/genital flexures (genital nevi monitor). Congenital garment lower trunk/buttock/buttock split.
+
+SYMPTOMS:
+
+Asymptomatic lifelong; rare itch/irritation trauma/rub.
+
+RISK FACTORS:
+
+Fair skin I-II (OR 3), childhood sunburns (>3 OR 2.5 nevi count), family history (>50 nevi OR 2), UV intermittent (back nevi density), age 20-40 peak acquisition, immunosuppression, giant congenital (NRAS melanoma 5-15%).
+
+CLINICAL SIGNS:
+
+Symmetric uniform color/shape <6mm stable, soft non-indurated, no satellite/ulcer. Ugly duckling outlier in pattern.
+
+DIFFERENTIAL DIAGNOSIS:
+
+Pigmented lesions dermoscopy/7-point checklist (score <3 benign). Melanoma (asymmetry>2 axes, irregular border, color variegated >3 shades, diameter>6mm, evolving; dermoscopy atypical network/blue-white veil/radial streaming atypical globules >2 criteria biopsy). Spitz nevus (symmetric dome pink-red-brown kids globular uniform starburst peripheral regular, symmetric histo kamino bodies). Blue nevus (uniform blue-gray slate cellular common variant stable). Dermatofibroma (stellate hard dimple central white scar network). Seborrheic keratosis (waxy stuck-on comedo/milia plugged fingerprint). Pigmented BCC (arborizing vessels leaf-like blue ovoid nests absent network). Lentigo simplex (uniform brown regular small). Why detailed: all brown symmetric <6mm; benign regular single derm pattern (reticular/globules) vs melanoma chaotic polymorphous (>2 patterns irregular diffuse pigment/veil/chrysalis negative); Spitz age<12 symmetric vs adult melanoma; dysplastic (ill-defined shoulder bridging rete) vs benign sharp uniform (1pt asymmetry +1pt color +1pt network = monitor). TTTT (Tan/Typical/Total/Thickness) biopsy dysplastic. RCM sens 90% avoids excision. Nevus count >100 melanoma risk x7 but benign. Stability 2y short-interval follow safe. Biopsy 20-30% benign; cost excision unnecessary low-risk.
+
+LOCATION CLUES:
+
+Distribution patterns risk/management. Acral palms/soles/subungual lattice/parallel ridge benign (biopsy if diffuse irregular lattice melanoma mimic); volar furrowed skin. Flexural/genital/genital dark stable (monitor melanoma rare but aggressive); mucosal biopsy low threshold. Back men intermittent UV sunburn nevi (high count melanoma precursor). Face intradermal flesh-toned benign (cosmetic excise if large). Scalp/neck congenital pattern (monitor satellite). Giant congenital posterior axis trunk/buttock (MRI neurocutaneous melanosis 10-15% if posterior, resection serial if symptomatic). Extremities women lower leg. Changes profoundly: acral any asymmetry dermoscopy biopsy (acral melanoma radial growth long); genital dark short follow or excise; back dysplastic excise; face shave ok intradermal. Kids Spitz-like globular. Sun-exposed recent change excise. Congenital garment no prophylactic resect (risk low <1%). Derm pattern site-specific: volar parallel benign vs network trunk. Multiple acral/genital high risk familial.
+
+SEVERITY AND RISK:
+
+Low risk (benign 99.9%, dysplastic marker not precursor 1-5% lifetime melanoma if familial).
+
+RECOMMENDED ACTION:
+
+Self-exam q3mo ugly duckling/ABCDE change, total count <50 low risk, short-interval 3-6mo follow dermoscopy stable (TTS algorithm), excise dysplastic >1pt/6mm/change/Spitz-like, congenital giant MRI baseline satellite excise symptomatic, sunscreen lifelong, avoid tan. Biopsy punch/shave/excis 2-3mm margin ink.
+
+COMMON MISTAKES:
+
+Excise all (80% unnecessary), ignore acral/genital (aggressive melanoma), no dermoscopy (sens drop 50%), long-interval unstable (melanoma doubles 6mo), congenital garment resect asymptomatic (risk neurocutaneous >> skin), count only visible (subclinical 2x), Spitz adult excise not monitor, shave dysplastic (miss lateral margins), no family screen (>50 nevi FAMMM)

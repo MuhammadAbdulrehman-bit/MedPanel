@@ -1,0 +1,58 @@
+
+DISEASE:
+
+consolidation
+
+CATEGORY:
+
+chest_xray
+
+ALIASES:
+
+airspace opacity, alveolar filling, lung consolidation, pneumonia pattern
+
+DESCRIPTION:
+
+Pulmonary consolidation is a radiologic sign representing replacement of alveolar air with fluid, cells, protein, blood, or pus, causing homogeneous opacification dense enough to obscure underlying bronchial/vascular markings (unlike ground-glass opacity which preserves them). It reflects pathology filling airspaces without significant volume loss initially, progressing to compressive atelectasis; air bronchograms (lucency of patent bronchi against fluid-filled alveoli) hallmark 70-90% cases. Common causes: infectious (pneumonia bacterial/lobar 80%, viral atypical diffuse), inflammatory (organizing pneumonia OP, eosinophilic), hemorrhagic (DAH), neoplastic (adenocarcinoma), hydrostatic (edema batwing), proteinosis (lavage milky). Pathophysiology: exudate/infiltrate floods alveoli via endothelial leak or aspiration, V/Q mismatch worsens hypoxemia (shunt 20-50%), consolidation consolidates over 24-72h bacterial vs patchy viral. Incidence: 50% CAP CXR, sensitivity CXR 60% vs CT 95%, LUS 92%. Subtypes: lobar (Strep pneumo), bronchopneumonia (Staph multifocal), interstitial pneumonia (HRCT GGO-dominant).
+
+VISUAL APPEARANCE:
+
+On chest X-ray, homogeneous dense opacity with silhouetting (loss of border diaphragm/heart/right heart RML/left heart lingula), air bronchograms (branching lucencies), no meniscus (vs effusion), sharp fissural margins. Lobar: RUL suprahilar, RML horizontal fissure triangle, RLL retrocardiac, LUL superior hazy, lingula paramedian. Multifocal patchy bronchopneumonia. CT: homogeneous consolidation ± tree-in-bud (endobronchial spread), bulging fissure (necrotizing Klebsiella), reverse halo/atoll (OP/invasive fungal), perilobular (lymphogenic). US: hepatization (liver-like echotexture), dynamic air bronchograms shred sign. Progression: air bronchograms patent vs fluid-filled drowned. Mimics: effusion (meniscus mobile), mass (volume loss absent), post-op change. Poor inspiration simulates lower zone.
+
+This CT series demonstrates progressive consolidation with opacities obscuring vessels, bronchial markings, and fissural involvement (arrows).
+
+TYPICAL LOCATIONS:
+
+Right lower lobe (30% aspiration/gravity), RML/lingula (15% poor drainage), multifocal bilateral bronchopneumonia, upper lobes TB/post-op, batwing perihilar edema. Posterior basal dependent supine.
+
+SYMPTOMS:
+
+Fever (80%), productive cough (purulent 70%), dyspnea (60%), pleuritic pain (40%), chills/rigors bacterial, myalgias viral. Severe: sepsis, resp failure.
+
+RISK FACTORS:
+
+Aspiration (bedbound/elderly OR 5), smoking/alcohol (COPD 3x), immunocompromise (HIV/chemo), post-op/influenza, microaspiration GERD, IVDU septic emboli.
+
+CLINICAL SIGNS:
+
+Bronchial breath sounds/egophony/consolidation dullness, increased fremitus, fever/tachycardia, sputum +gram/Cx.
+
+DIFFERENTIAL DIAGNOSIS:
+
+Consolidation nonspecific airspace disease; cause via clinical/microbiology/imaging evolution. Pneumonia bacterial (lobar air bronchogram, rapid antibiotics response 48h, CURB-65, sputum diplococci) vs viral (patchy GGO migratory, lymphs, self-limited). Lobar pneumonia (Strep pneumo/Klebsiella bulging fissure) vs bronchopneumonia (Staph/H flu multifocal peribronchial). OP (peripheral reverse halo migratory, steroids dramatic, BAL lymphs) vs eosinophilic pneumonia (peripheral flame-shaped, eosinophils >25%, steroids). DAH (hemoptysis drop Hct, sequential bilateral, BAL hemosiderin-laden macrophages >20%) vs edema (cardiomegaly Kerley BNP high). Adenocarcinoma (spiculated persistent, PET+, slow grow) vs acute infarct (wedge resolves D-dimer). Proteinosis (crazy-paving chronic, PAS+ acellular globules). Septic emboli (cavitate multifocal peripheral, tricuspid endocarditis). Aspiration (dependent RLL, anaerobes). Sarcoid alveolar (perilymphatic nodules). Why detailed: all opaque air bronchograms silhouette; pneumonia consolidates migratory +fever/Cx vs mass fixed enhancement; edema symmetric cardiomegaly pleural vs patchy ARDS; OP reverse halo steroid response vs fungal (neutropenic halo). CXR sens 50-70%; CT pattern/tree-in-bud specificity 85%. Procalcitonin >0.25 bacterial. BAL differentiates (PMNs pneumonia, lymphs OP/viral). Serial CXR: pneumonia peaks 3-5d clears 2wk vs mass stable. LUS shred vs effusion quad. 40% overlap CAP; microbiology mandates.
+
+LOCATION CLUES:
+
+Distribution narrows cause dramatically. RLL dependent posterior: aspiration/anaerobes (elevate HOB, clinda/metronidazole); post-op day 3. RML/lingula wedge: bacterial esp women/obese poor collateral (bronch if persistent). RUL apical/cavitate: TB reactivation (AFB, CT tree-in-bud upper). Multifocal bronchocentric: Staph/MRSA hospital-acquired (vanc/linezolid). Peripheral upper OP/eosinophilic: autoimmune (trial steroids). Batwing central: edema flash pulmonary (diuresis test). Wedge peripheral septic emboli/PE infarct (emboli echo/D-dimer). Diffuse bilateral ARDS/pneumocystis (HIV BAL). Lingula paramedian: Haemophilus. Bulging fissure RUL necrotizing Klebsiella (alcoholics). Cavitary upper: necrotizing pneumonia vs TB. Changes management: aspiration RLL abx anaerobic cover; OP peripheral biopsy/steroids; emboli peripheral blood Cx TTE. Pediatric viral lower. Immunosuppressed fungal halo/aspergillus. Associated cavitation: TB/Staph vs consolidation pneumonia. Symptoms + loc: hemoptysis upper = TB; rigors multifocal = Staph. CT confirms endobronchial spread tree-in-bud. Progression loc: migratory viral/OP vs fixed mass.
+
+SEVERITY AND RISK:
+
+Medium risk (unilateral lobar abx outpatient CURB<2, bilateral/multilobar high ICU 20% mortality, necrotizing/empyema high).
+
+RECOMMENDED ACTION:
+
+Sputum Cx/Gram/PCR, CURB-65/PSB score, abx ceftriaxone/azithro CAP, vanc/ceft pneumonia HAP, bronch BAL nonresolving >72h, serial CXR q48h. Support O2/NIV.
+
+COMMON MISTAKES:
+
+All consolidation = pneumonia (check BNP echo edema, BAL OP), ignore reverse halo (OP not abx), RML miss lateral view, aspiration no anaerobe cover, nonresolving no bronch (abscess/malignancy), procal <0.25 viral abx unnecessary, static CXR (expect evolution), LUS/CT superior sensitivity overlooked

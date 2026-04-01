@@ -1,0 +1,56 @@
+
+DISEASE:
+
+dermatofibroma
+
+CATEGORY:
+
+skin_lesion
+
+ALIASES:
+
+fibrous histiocytoma, histiocytoma cutis, sclerosing hemangioma, benign fibrous histiocytoma
+
+DESCRIPTION:
+
+Dermatofibroma is a common benign cutaneous mesenchymal tumor composed of spindled fibroblasts, histiocyte-like cells, and lipidized macrophages in the dermis, often reactive to minor trauma (insect bite, thorn, follicle), characterized by slow-growing firm nodules with peripheral collagen trapping and epidermal hyperplasia. Histologically, interlacing fascicles of uniform spindle cells (factor XIIIa+, CD68+ patchy), collagen balls entrapped peripherally, Grenz zone epidermal sparing, basal hyperpigmentation "dirty feet sign," acanthosis/elongated rete ridges; variants cellular (more histiocytes), aneurysmal (hemorrhagic lakes), lipidized (xanthoma-like foamy), atrophic (indented). Prevalence 1-5% adults, female:male 2:1 age 20-50 peak; multiple eruptive rare (immunosuppression), giant >2cm. Pathogenesis reactive hyperplasia (70% leg trauma history), rare clonal fibroblastic; recurs <1% complete excision, no malignant potential (vs DFSP CD34+ honeycomb). Stable lifelong or regresses spontaneously 10-20%; asymptomatic or cosmetic concern.
+
+VISUAL APPEARANCE:
+
+Firm 3-10mm (up to 15mm) brown/reddish-brown/tan/pink dome/button-like papule/nodule, tethered dimple/pinch sign (lateral compression indents center), rubbery/hard "knot," smooth/glabrous surface occasional scale/crust. Color varies skin type (dark brown/black darker phototypes), central hypopigmentation pale. Variants: hemosiderotic rusty, aneurysmal ecchymotic polypoid, atrophic depressed. Dermoscopy classic (70-80%): peripheral delicate light-brown pigment network (negative network thin lines/holes), central white scar-like patch (fibrosis polarized bright white lines/streaks), red clods (vascular), atypical network/polymorphous vessels rare simulators. Other patterns: network throughout (15%), white network central (10%), atypical globules/streaks (3-5% melanoma mimic). RCM: spindle cells dark streaming, bright collagen bundles. Histology confirms collagen trapping. Evolves stable/enlarges slowly regresses hypopigmented macule.
+
+TYPICAL LOCATIONS:
+
+Extremities 80-90% (legs 60-70% women lower, arms 20%), trunk 10-15%, ankle/shin classic post-trauma, rare face/scalp/palms/genitals. Multiple eruptive trunk/arms.
+
+SYMPTOMS:
+
+Asymptomatic 80%; pruritus/tenderness/pain 20% (pinch/trapped hair), cosmetic, rarely ulcerate bleed.
+
+RISK FACTORS:
+
+Minor trauma/insect bite/thorn (50-70% history), female gender (2x), age 20-50, darker phototypes (darker lesions), immunosuppression (multiple eruptive HIV/transplant), lupus erythematosus (atrophic variant).
+
+CLINICAL SIGNS:
+
+Pinch/dimple sign pathognomonic (tethered mobile over subcutis), firm nontender, uniform color/shape <1.5cm, no induration/ulcer/satellite. Dermoscopy confirmatory.
+
+DIFFERENTIAL DIAGNOSIS:
+
+Firm nodules dermoscopy/biopsy differentiates malignancies. Dermatofibrosarcoma protuberans (DFSP, plaque-like infiltrative >2cm rapid growth, honeycomb fat trapping CD34+, storiform histo, recurs 50%). Melanocytic nevus (soft uniform brown symmetric network/globules, no white patch). BCC (pearly rolled telangiectasia arborizing vessels leaf-like blue globules). Keloid/hypertrophic scar (linear/stretched trauma site itchy growing). Leiomyoma (pain cold-induced linear smooth muscle). Neurofibroma (soft Buttonhole sign plexiform NF1). Mastocytoma (Darier's yellow-brown urticate stroking). Glomus tumor (tender red subungual). Why detailed: all firm tethered leg nodules; dermatofibroma peripheral network + central white (sens 85%) vs DFSP uniform storiform CD34+ trapdoor excision; nevus pigment network regular no fibrosis; BCC vessels arborizing; keloid no dimple collagen whorls; leiomyoma fascicles painful. Atypical dermoscopy (streaks/globules 5%) biopsy (factor XIIIa+ CD34-). Pinch sign 90% spec. Excision subcutaneous fat rules DFSP. Stability years benign vs DFSP months. Female leg classic reactive. Histology spindle monotonous vs pleomorphic sarcoma. 60% preoperative misdiagnosis masses/DF; dermoscopy reduces biopsy 70%.
+
+LOCATION CLUES:
+
+Site refines etiology/difficulty. Lower legs/ankles/shins women classic post-insect (conservative reassurance). Arms/trunk multiple eruptive immunosuppression (systemic workup HIV). Face rare (biopsy rule DFSP/BCC higher risk). Ankle giant hemosiderotic (excision symptomatic). Upper arm cellular variant young. Acral rare (biopsy sarcoma). Changes management: leg asymptomatic observe (stable benign); trunk growing excise; face/rapid atypical dermoscopy biopsy (DFSP/BCC sarcoma 1%); multiple >5 eruptive screen HIV/autoimmune. Associated eczema/prurigo (irritated DF). Pediatric rare fibrous papule nose. Derm pattern universal network/white but darker skin clods. Recur leg 1% vs trunk 5%. Painless vs leiomyoma cold painful arm. Trauma history reactive vs spontaneous DFSP.
+
+SEVERITY AND RISK:
+
+Low risk (benign no malignant potential, recurs <1% complete excision, cosmetic/itch).
+
+RECOMMENDED ACTION:
+
+Reassurance asymptomatic/diagnostic dermoscopy classic, excise elliptical symptomatic/unsightly/cosmetic (2-3mm margin full thickness subcutis DFSP rule-out), intralesional steroid inflamed, watch rapid growth/ulcer atypical. Annual self-exam if multiple. Sunscreen unrelated.
+
+COMMON MISTAKES:
+
+Routine excision asymptomatic (80% unnecessary), biopsy inadequate superficial (miss collagen balls), ignore atypical dermoscopy (5% simulators melanoma/DFSP), misdiagnose DFSP (CD34+ storiform), shave high recurrence site (deepens scar), no pinch test (clinical 90% sens), multiple no immunosuppression screen, irritated as infected (steroid first).

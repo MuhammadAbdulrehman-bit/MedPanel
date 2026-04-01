@@ -1,0 +1,56 @@
+
+DISEASE:
+
+mild_dr
+
+CATEGORY:
+
+retinal
+
+ALIASES:
+
+mild nonproliferative diabetic retinopathy, mild NPDR, ETDRS level 20-35, early background DR
+
+DESCRIPTION:
+
+Mild diabetic retinopathy (mild DR or mild NPDR) represents the earliest clinical stage of non-proliferative diabetic retinopathy (ETDRS levels 20-35), defined by the presence of at least one microaneurysm (MA) but fewer than 20 MA in the posterior pole, with no hemorrhages, exudates, cotton wool spots (CWS), venous beading, intraretinal microvascular abnormalities (IRMA), or neovascularization elsewhere. Microaneurysms—small saccular outpouchings <125μm of weakened capillary walls from pericyte loss (first histologic change)—leak plasma proteins causing retinal thickening; progression risk 5%/year to moderate NPDR (21% 5-year high-risk PDR). Prevalence: 15-25% type 2 DM >5y, 25% type 1 >5y; asymptomatic marker early microvascular damage from hyperglycemia-induced basement membrane thickening, oxidative stress, VEGF upregulation, advanced glycation end-products (AGEs). UWF detects 20-30% peripheral MA missed standard 7-field; OCT shows hyporeflective MA walls with hyperreflective lumen. No vision loss; annual monitoring key (DCCT/UKPDS control slows 50%).
+
+VISUAL APPEARANCE:
+
+Fundus: 1-5 red dots (MA temporal macula/parapapillary <125μm), uniform retinal background, no DBH/CWS/exudates/IRMA/VB; AV nicking absent. OCT: small round/oval hyporeflective spaces inner layers (MA), no cystoid macular edema (CME), intact ellipsoid zone (EZ)/external limiting membrane (ELM). FA: early hyperfluorescent pinpoint MA leak late smoke-stack. UWF: peripheral MA 15% standard normal. Progression: MA → dot-blot hemorrhage (IRH) shadow tail. Mimics: intraretinal hemorrhage non-DR, drusen yellow dome RPE.
+
+TYPICAL LOCATIONS:
+
+Posterior pole temporal macula (60%, first MA cluster), parapapillary bundles (20%), mid-peripheral arcade (20%). Bilateral symmetric 80%.
+
+SYMPTOMS:
+
+Asymptomatic 95%; rare mild blur from lens sugar flux (HbA1c swing), no scotoma/metamorphopsia until CSME.
+
+RISK FACTORS:
+
+DM duration >5y (OR 3), HbA1c >8% (OR 2.5 per 1%), hypertension (OR 2), nephropathy (OR 4), type 2 obesity/dyslipidemia, pregnancy (rapid worsen).
+
+CLINICAL SIGNS:
+
+Few red dots posterior pole, normal vessels/caliber/disc/fovea reflex; OU symmetric.
+
+DIFFERENTIAL DIAGNOSIS:
+
+Few MA vs mimics/other microangiopathy; serial imaging/OCT differentiates. No DR (zero MA, <1% 4y progress vs 5% mild). Moderate NPDR (>20 MA + hemorrhages/CWS). Hypertensive retinopathy (flame hemorrhages/AV nicking silver wiring, no saccular MA). Retinal vein occlusion (sector wedge MA/hemorrhages). Radiation (hard exudates telangiectasia history). HIV (asymmetric CWS microangiopathy). Why detailed: all punctate red dots; mild DR saccular MA hyperfl OCT hyporeflect no EZ defect vs hypertensive linear flame no leak FA; UWF peripheral ischemia key vs central normal; OCTA capillary dropout foveal avascular zone (FAZ) normal <0.4mm² vs enlarged; FA leak pinpoint vs non-leak dot hemorrhage. Stability 6-12mo mild vs rapid moderate. Proteinuria mild DR → diabetic nephropathy likely vs no DR NDRD biopsy. Type 1 short duration expected vs type 2 long suspicious control failure. Sens fundus 80%; UWF/OCT 95%.
+
+LOCATION CLUES:
+
+Temporal macula few MA: classic mild (q12mo screen). Parapapillary cluster: higher progression (q6-9mo). Peripheral UWF-only: mild but tighten control (q6mo UWF). Asymmetric OU: suspect superimposed pathology (HTN/BRVO). Macula ringless subtle exudate: pre-clinical CSME OCT. No posterior + peripheral: early peripheral ischemia. Changes profoundly: peripheral-dominant UWF → anti-VEGF trial; macular MA → OCT CME screen; bilateral posterior symmetric → optimize HbA1c/BP; unilateral → fellow eye workup. Type 1 youth temporal expected; type 2 >10y parapapillary suspicious nephropathy. Pregnancy any MA urgent q3mo.
+
+SEVERITY AND RISK:
+
+Low risk (5%/year moderate NPDR, <1% 4y laser, annual screen).
+
+RECOMMENDED ACTION:
+
+Annual dilated fundus exam (AAO), HbA1c <7%/BP <130/80 strict, UWF/OCT baseline peripheral/CME, smoking cessation, fenofibrate dyslipidemia (FIELD 30% slow), aspirin controversial. No laser/injection.
+
+COMMON MISTAKES:
+
+q24mo screen (progresses 5%/y), miss UWF peripheral (20-30%), call moderate (overtreat), no OCT macular (subtle CME 10%), ignore HbA1c/BP (doubles risk), pregnancy extend interval, asymmetric no workup (BRVO), proteinuria assume DN (NDRD possible).

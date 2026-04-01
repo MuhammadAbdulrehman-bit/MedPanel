@@ -1,0 +1,54 @@
+
+DISEASE:
+
+proliferative_dr
+
+CATEGORY:
+
+retinal
+
+ALIASES:
+
+proliferative diabetic retinopathy, PDR, high-risk PDR, ETDRS level 80+
+
+DESCRIPTION:
+
+Proliferative diabetic retinopathy (PDR) is the advanced, vision-threatening stage of diabetic retinopathy characterized by neovascularization (new vessel growth) driven by retinal ischemia/hypoxia, where extensive capillary non-perfusion (>10 disc areas UWF) induces VEGF surge, leading to fragile new vessels at the disc (NVD) or elsewhere (NVE) that leak, hemorrhage, and form fibrovascular traction causing vitreous hemorrhage (VH 50%), tractional retinal detachment (TRD 10-15%), and neovascular glaucoma (NVG 5%). ETDRS high-risk criteria: NVD >1/3 disc OR any NVD + VH OR NVE >1/2 disc + VH; 50% untreated lose >5 lines vision 2y. Prevalence 5-10% DM >20y; UWF unmasks 30% peripheral NVE missed standard; OCT shows ERM/TRD/DRIL; anti-VEGF + PRP standard (Protocol S 70% non-inferior). Rapid pregnancy (50% worsen).
+
+VISUAL APPEARANCE:
+
+Fundus: fine lacy red-black neovascular fronds/loops NVD disc/NVE arcade/discriminant, VH boat-shaped pre-retinal/vitreal haze, silver fibrotic sheen traction, TRD funnel/macula-off elevation; background severe NPDR (IRMA/VB/DBH). OCT: VMA/ERM hyperreflective vitreoretinal interface, TRD subretinal hyporeflect, VH posterior shadowing, DRIL EZ defect. FA: NVE/NVD intense early leak progressive pool disc/discriminant, non-perfusion black periphery. UWF: peripheral NVE/IRMA 3x standard. Progression: NVE → VH → TRD. Mimics: sickle retinopathy (sea-fan).
+
+TYPICAL LOCATIONS:
+
+Optic disc NVD (40% high-risk), temporal arcade/discriminant NVE (50%), mid-peripheral UWF (30%), macula TRD/VH, bilateral 95%.
+
+SYMPTOMS:
+
+Floaters sudden (VH 60%), vision drop painless (TRD/VH), field loss peripheral (ischemia), photopsia rare.
+
+RISK FACTORS:
+
+Severe NPDR >6mo (OR 15), HbA1c >10% (OR 8), nephropathy/HTN/anemia/pregnancy (OR 5), rapid glycemic drop.
+
+CLINICAL SIGNMS: Neovascular loops disc/arcade, VH haze, TRD convexity, asymmetric TRD macula-threatening.
+
+DIFFERENTIAL DIAGNOSIS:
+
+Neovascularization vs mimics; FA/OCTA/UWF differentiates. Severe NPDR (IRMA fine non-leak vs NVE leak). Ocular ischemic syndrome (NVE mid-peripheral loop mid-dilation carotid stenosis). Sickle cell (peripheral sea-fan salmon patches). BRVO neovascularization (sector NVE collaterals). Radiation retinopathy (post-equatorial NVE history). Retinopathy prematurity (temporal ridge). Why detailed: red vascular fronds; PDR NVE/NVD leak FA progressive pool UWF peripheral non-perfusion vs IRMA patent; OIS mid-dilation+prolonged AV transit; OCTA flow neovascular vs IRMA non-flow; asymmetry BRVO sector; stability 1mo PDR vs chronic OIS. Nephropathy → DN. Type 1 explosive NVD vs type 2 insidious NVE. Sens 7-field 75%; UWF 97%.
+
+LOCATION CLUES:
+
+NVD disc + VH: high-risk PRP/anti-VEGF stat. NVE temporal arcade >1/2 disc: high-risk inject+laser. Peripheral UWF NVE: anti-VEGF bridge PRP. Macula TRD: vitrectomy urgent. Asymmetric NVE: carotid Doppler OIS. No disc + peripheral: early PDR observe laser prep. Optic disc tufts leak. Changes profoundly: disc NVD → admit anti-VEGF/PRP; macular TRD → surgery <72h; bilateral VH → B-scan vitrectomy; unilateral → vascular workup; pregnancy → weekly. Type 1 superior NVD → ESRD screen.
+
+SEVERITY AND RISK:
+
+High risk (50% 2y blindness untreated, immediate retina referral).
+
+RECOMMENDED ACTION:
+
+Emergency retina (24-48h), anti-VEGF (aflibercept/ranibizumab q4wk) + PRP (2000-3000 scatter), vitrectomy VH>1mo/TRD macula, NVG anti-VEGF + tube shunt, UWF/OCT/FA/B-scan baseline, HbA1c <7%/BP/fenofibrate.
+
+COMMON MISTAKES:
+
+q2mo screen (50% VH 3mo), call severe NPDR (delay PRP 30% progress), no anti-VEGF PRP (VH recur 50%), miss UWF peripheral NVE (40%), vitrectomy delay TRD (macula atrophy), pregnancy q1mo, asymmetric no carotid workup, ignore NVG (blind)

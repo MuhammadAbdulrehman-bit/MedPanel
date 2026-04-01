@@ -1,0 +1,56 @@
+
+DISEASE:
+
+emphysema
+
+CATEGORY:
+
+chest_xray
+
+ALIASES:
+
+chronic obstructive pulmonary disease (COPD) component, bullous lung disease, vanishing lung syndrome (giant bullae)
+
+DESCRIPTION:
+
+Emphysema is a destructive lung disease characterized by permanent enlargement of airspaces distal to the terminal bronchioles with destruction of alveolar walls, without fibrosis, leading to loss of elastic recoil, airflow limitation, and gas trapping. It comprises 70-80% of COPD pathology, with subtypes centrilobular (smoking-related upper lobe predominant), panlobular (alpha-1 antitrypsin deficiency uniform), paraseptal (subpleural apical bullae), and irregular (post-TB scarring). Pathophysiology involves protease-antiprotease imbalance (neutrophil elastase > alpha-1), oxidative stress, apoptosis of alveolar cells, resulting in V/Q mismatch (dead space), hypercapnia (PaCO2 >45 mmHg), hypoxemia, dynamic hyperinflation (RV/TLC >35%). Prevalence: 3-5% adults >40y, 15 million US diagnosed, smoking-attributable 85%. GOLD stages: mild (FEV1 >80%), moderate (50-80%), severe (<50%), very severe (<30%). Complications: cor pulmonale (RVH 30%), pneumothorax (bullae rupture 5%), respiratory failure. HRCT quantitative % low-attenuation areas >-950 HU confirms extent.
+
+VISUAL APPEARANCE:
+
+On chest X-ray, hyperinflation dominates: >10 posterior ribs visible (>7 normal), flattened/low diaphragm (right hemidiaphragm <1.5 cm above 7th rib anteriorly), increased retrosternal airspace (>2.5 cm lateral view), barrel chest (AP diameter >T diameter), avascular upper zones (oligemia, pruned vessels), bullae (thin-walled <1cm lucencies apical, >10% volume severe). Horizontal 8th rib crossing midline signals FEV1 <1L. Heart narrow/vertical ("drop heart"), rapid hilar taper. Lateral: bulla wrapping pulmonary artery/aorta, retrosternal fill >3cm. CT hallmarks: mosaic attenuation, centrilobular lucencies 5-15mm upper lobes, subpleural blebs, %LAA <-950 HU correlates DLCO drop. Mimics: inspiration artifact (single film), Swyer-James (unilateral post-viral), asthma (reversible hyperinflation). Expiration accentuates bullae. Advanced: basilar crowding vessels.
+
+TYPICAL LOCATIONS:
+
+Upper lobe predominant centrilobular (80% smokers), apical paraseptal blebs/bullae, diffuse panacinar basal AAT deficiency. Bilateral symmetric, spares costophrenic initially. Giant bullae upper 30-50% hemithorax.
+
+SYMPTOMS:
+
+Progressive dyspnea exertion (90%, MRC 3+), chronic cough/sputum (bronchitis overlap), wheezing, fatigue, weight loss (cachexia 20%), frequent exacerbations (2+/year), barrel chest discomfort, sleep disruption, anxiety/depression (COPD 40%).
+
+RISK FACTORS:
+
+Smoking (85%, pack-years >20 OR 10-20), alpha-1 antitrypsin deficiency (PiZZ 1% severe early), air pollution/biomass fuel (OR 2-4), occupational dust/fumes (coal/silica), age >40, low birthweight, asthma/CF overlap, IVDU, HIV.
+
+CLINICAL SIGNS:
+
+Prolonged expiration (>6s), wheezes/decreased breath sounds, hyperresonance percussion, anteroposterior chest diameter >30cm, pursed-lip breathing, accessory muscle use, clubbing absent (vs IPF), RV heave/loud P2 (cor pulmonale), cyanosis (blue bloater).
+
+DIFFERENTIAL DIAGNOSIS:
+
+Emphysema hyperinflation confuses with reversible airway diseases, parenchymal destruction mimics; PFTs/reversibility key. Asthma (younger, atopy, >12% FEV1 bronchodilator, normal DLCO vs reduced emphysema). Chronic bronchitis (productive sputum >3mo/y 3y, less hyperinflation, lower lobe). Bronchiectasis (tram-track CT, +sputum Cx, clubbing). ILD/IPF (restrictive PFTs, honeycomb basal, clubbing, DLCO low). Heart failure (cardiomegaly, Kerley lines, B-lines US, BNP high vs normal). Cystic fibrosis (young, GI, Pseudomonas). Swyer-James syndrome (unilateral hyperlucency post-viral, small lung). Lymphangioleiomyomatosis (LAM, women premeno, chylothorax, cysts uniform HRCT). Hypersensitivity pneumonitis (subacute mosaic, centrilobular nodules). Why detailed: all dyspnea/hyperinflation; emphysema irreversible airflow obstruction (FEV1/FVC <0.7 post-BD), bullae destruction vs cysts thick-walled, upper lobe pruning vs basal fibrosis, DLCO <50% predicts severity (normal asthma). CXR sens 60% mild; HRCT 95%. Reversibility test: <15% FEV1 emphysema. AAT level <80mg/dL genetic. Exacerbation: infection vs pollution. EKG: RAD/RVH cor pulmonale. 30% overlap COPD phenotypes; quantitative CT differentiates centrilobular vs panlobular. Bullous disease vs emphysema: giant >30% single vs diffuse <1cm. Static hyperinflation vs dynamic asthma (pre/post BD films).
+
+LOCATION CLUES:
+
+Distribution subtypes etiology/prognosis, therapy. Upper lobe/centrilobular predominant: smoking classic (LVRS candidate upper 20-30% improve FEV1), rapid decline. Panlobular basal uniform: AAT deficiency (augmentation therapy IV, screen Pi*ZZ). Paraseptal apical blebs: spontaneous PTX risk (pleurodesis), young smokers. Bullous upper giant: surgical resection if compressed normal >30% volume (reduces dyspnea 60%). Diffuse symmetric: biomass/old age. Basilar sparing early, progresses. Right upper > left (smoking). Mosaic upper low-attenuation: small airways. Changes profoundly: upper LVRS/Bullectomy (6min walk +50m), AAT genetic counseling/prophylaxis; diffuse O2LT only. Associated bullae PTX rule-out CT. Cor pulmonale basilar vessels prominent. Pediatric panlobular rare AAT/CF. Ex-smoker upper watchful; never-smoker diffuse pollution/alpha1 test. Progression upper faster (FEV1 loss 80ml/y vs 50). Symptoms + loc: PTX pain apical blebs = paraseptal; early satiety giant bulla. HRCT %emphysema >15% transplant list.
+
+SEVERITY AND RISK:
+
+Medium/High risk (mild FEV1>80% low, moderate 50-80% medium, severe <50% high exacerbations, very severe <30%/hypoxemia high mortality 50% 5y).
+
+RECOMMENDED ACTION:
+
+Smoking cessation (FEV1 preserves 50ml/y), SABA/LABA/LAMA (tiotropium FEV1 +100ml), ICS severe exacerbator, O2LT PaO2<55 mmHg (survival x3), pulmonary rehab (6MWD +50m), LVRS upper bullous select, transplant end-stage, vaccinate influenza/pneumococcal, AAT replacement PiZZ. PFTs annual, HRCT baseline.
+
+COMMON MISTAKES:
+
+Diagnosing mild on CXR alone (HRCT/PFTs), missing AAT deficiency (order level all <45y/newly diagnosed), over-ICS non-exacerbator (pneumonia risk x1.5), no rehab (underused 10%), ignoring PTX blebs (CT young PTX), calling asthma (irreversible post-BD), late O2LT (hypoxemia mortality), bullectomy all bullae (select compressed normal lung), overlooking pollution never-smokers, static spirometry (pre/post ratio)

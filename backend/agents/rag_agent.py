@@ -33,7 +33,7 @@ def run_rag_agent(scan_type: str, findings: list, body_location: str = None) -> 
 
     topic_map = {
         "chest_xray": "xray",
-        "skin": "skin",
+        "skin_lesion": "skin",
         "retinal": "retinal"
     }
     topic = topic_map.get(scan_type, "xray")
@@ -50,7 +50,7 @@ def run_rag_agent(scan_type: str, findings: list, body_location: str = None) -> 
         query_embedding = embedder.encode(query).tolist()
         results = collection.query(
             query_embeddings=[query_embedding],
-            n_results=min(3, count)
+            n_results=min(8, count)
         )
 
         context = ""
@@ -67,7 +67,7 @@ def run_rag_agent(scan_type: str, findings: list, body_location: str = None) -> 
             safety_embedding = embedder.encode(safety_query).tolist()
             safety_results = collection.query(
                 query_embeddings=[safety_embedding],
-                n_results=min(2, count)
+                n_results=min(4, count)
             )
             
             if safety_results and safety_results["documents"]:

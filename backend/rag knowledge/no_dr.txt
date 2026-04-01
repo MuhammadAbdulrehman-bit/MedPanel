@@ -1,0 +1,56 @@
+
+DISEASE:
+
+no_dr
+
+CATEGORY:
+
+retinal
+
+ALIASES:
+
+no diabetic retinopathy, normal retina diabetic, absent DR, ETDRS level 10, no background DR
+
+DESCRIPTION:
+
+"No DR" refers to the absence of detectable diabetic retinopathy on fundus examination or imaging in patients with diabetes mellitus, representing the earliest stage (ETDRS level 10) where retinal microvasculature shows no microaneurysms (MA), dot/blot hemorrhages (DBH), cotton wool spots (CWS), venous beading (VB), intraretinal microvascular abnormalities (IRMA), or neovascularization despite chronic hyperglycemia exposure. This state indicates preserved blood-retinal barrier integrity, intact pericytes (preventing capillary dilation), and no basement membrane thickening/endothelial damage characteristic of non-proliferative DR (NPDR). Prevalence: 60-80% newly diagnosed type 2 DM, 90% type 1 <5y duration; progresses 2-5%/year to mild NPDR (<1% 4-year PDR risk). Pathophysiology: pre-clinical phase where HbA1c >7% triggers oxidative stress/AGEs/polyol pathway but subclinical (no visible MA first sign); absence DR predicts low short-term progression but 50% develop within 10y poor control. Serves biomarker: no DR + proteinuria suggests nondiabetic renal disease (NDRD 50-80% biopsy yield vs 20% DR present). Gold standard: 7-field stereo fundus photo; ultra-widefield (UWF) detects 20% peripheral only.
+
+VISUAL APPEARANCE:
+
+Normal retinal architecture: uniform orange-red background, sharp arteriolar reflex/attenuation, regular venular caliber, foveal avascular reflex, intact arcades, no red dots (MA), no dark intraretinal DBH, no fluffy white CWS, no looping VB, no fine IRMA, no NVE/NVD disc leakage FA. Macula: glistening reflex, no hard exudites/MA rings. Optic disc pink physiologic cup. UWF: peripheral 20% subtle MA missed standard 45° 4DFP. OCT: intact ellipsoid/ELM/RPE no cystoid spaces/DRIL. FA: normal transit arm-to-retina 12s no leaks. Progression first: 1-5 MA temporal macula <125μm.
+
+TYPICAL LOCATIONS:
+
+Uniform absence across posterior pole (macula/parapapillary), mid-peripheral temporal arcade (first MA), far-peripheral UWF (subclinical). No focal hotspots.
+
+SYMPTOMS:
+
+Asymptomatic; excellent visual acuity 20/20; no floaters/metamorphopsia/scotoma until late NPDR/PDR.
+
+RISK FACTORS:
+
+Short DM duration <5y (90% no DR), good control HbA1c <7% (OR 0.3 progress), type 1 youth diagnosis, no hypertension (OR 2), no nephropathy/proteinuria.
+
+CLINICAL SIGNS:
+
+Crisp vessels, normal AV ratio 2:3, clear fovea, no venous tortuosity/dilation, symmetric OU findings.
+
+DIFFERENTIAL DIAGNOSIS:
+
+Normal retina vs subtle early NPDR/other retinopathy; imaging serial differentiates. Mild NPDR (1-5 MA/DBH, no CWS/IRMA; 5% 4y PDR vs <1% no DR). Hypertensive retinopathy (AV nicking/flicker arteriolar flame hemorrhages, no MA). Retinal vein occlusion branch (wedge sector MA/hemorrhages). Radiation retinopathy (cotton wool hard exudates telangiectasia history). HIV retinopathy (cotton wool microvasculopathy no MA). Anemia retinopathy (hemorrhages Roth spots no MA). Why detailed: all "normal" early; no DR zero lesions vs mild NPDR few punctate temporal MA (<125μm red dots FA hyperflourescent leak); hypertensive silver wiring no capillary dilation; UWF peripheral ischemia differentiates sick vessel disease. OCTA foveal avascular zone normal <0.3mm² vs enlarged NPDR. FA normal transit vs prolonged NPDR. Stability 12mo no DR vs progression mild. Proteinuria no DR → renal biopsy NDRD (IgA/MCD 50%). Type 1 <5y expected no DR vs type 2 long duration suspicious NDRD. Sens imaging 95%; 20% clinical miss subtle MA.
+
+LOCATION CLUES:
+
+Uniform absence reassures; subtle temporal macula single MA upgrades mild NPDR (annual exam). Peripheral UWF-only MA (15-20% standard normal) mild NPDR (12mo follow). Asymmetric OU no DR one eye suspicious non-DR (HTN/vein occl). Macular subtle hard exudites ringless → CSME workup. Optic disc no NVD/neovascular tufts. Changes profoundly: peripheral-only UWF → tighten glycemic; bilateral symmetric normal → annual screen; unilateral normal contralateral lesions → fellow eye pathology. Type 1 youth uniform expected; type 2 >15y duration no DR → NDRD renal biopsy. Pregnancy rapid progression even no DR baseline.
+
+SEVERITY AND RISK:
+
+Low risk [<1% 4-year PDR, annual screening sufficient].
+
+RECOMMENDED ACTION:
+
+Annual dilated exam (AAO strong), optimize HbA1c <7%/BP <130/80, UWF if available peripheral, counsel progression risk 2-5%/y poor control. Renal proteinuria → nephrology biopsy NDRD.
+
+COMMON MISTAKES:
+
+Extend screening >12mo (progresses 5%/y), miss peripheral UWF MA (20% underestimate), no DR + proteinuria assume DN (NDRD 50-80% biopsy), undervalue HbA1c (each 1% ↑ doubles risk), type 2 long duration no DR skip renal workup, pregnancy no baseline (rapid worsen)

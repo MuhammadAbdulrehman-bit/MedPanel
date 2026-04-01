@@ -1,0 +1,56 @@
+
+DISEASE:
+
+pneumothorax
+
+CATEGORY:
+
+chest_xray
+
+ALIASES:
+
+collapsed lung, punctured lung, air leak
+
+DESCRIPTION:
+
+Pneumothorax is the presence of extrapulmonary air within the pleural space between the visceral and parietal pleura, causing partial or complete lung collapse due to positive pressure disrupting the negative intrapleural vacuum (-4 to -8 cmH2O). Air enters via rupture of alveoli/blebs (spontaneous), trauma (iatrogenic/penetrating), or barotrauma (ventilator), leading to progressive atelectasis proportional to volume (small <15% lung area, large >30%, tension >90% with hemodynamic compromise). Incidence: 18-28/10,000/year spontaneous primary (PSP), 50/100,000 secondary (SSP in COPD), 300/100,000 ventilated patients/day. Pathophysiology: lung recoils elastically (compliance loss 50-70%), V/Q mismatch worsens hypoxemia (A-a gradient >20 mmHg), right ventricular strain in tension (CVP rise, shock). Subtypes: spontaneous (PSP tall smokers, SSP diseased lungs), traumatic (rib fx/blunt), iatrogenic (central line 1-3%, thoracentesis), catamenial (endometriosis), tension (one-way valve). Recurrence 30-50% ipsilateral, 20% contralateral without intervention.
+
+VISUAL APPEARANCE:
+
+On upright chest X-ray, diagnostic visceral pleural line (thin 1-2mm white line 1-2cm from chest wall, no markings beyond) with hyperlucency (blacker apex), deep sulcus sign (sharp costophrenic extension supine), reduced vascularity. Small apical <3cm apex-to-line, large >5cm or 3cm lateral. Tension: mediastinal/tracheal shift contralateral, diaphragmatic flattening/depression (>2cm), inferior vena cava >2cm, rib expansion. Supine: juxtacardiac lucency, sharp lateral/subpulmonic sulcus (>2cm deep), continuous diaphragm sign (air outlines lateral diaphragm). Lateral: anterior sharp line. US: absent lung sliding/stratosphere sign M-mode (horizontal lines), lung point (transition normal to absent), barcode sign; 95% sens anterior 2nd ICS. CT gold: air crescent (-800 HU), bullae if spontaneous. Mimics: skin fold (marks cross ribs), Mach band (edge artifact), bulla (irregular thick wall >1cm, check expiratory). Expiration accentuates small (line-to-apex >2cm).
+
+TYPICAL LOCATIONS:
+
+Apical non-dependent (erect, 80% small spontaneous), anterior 2nd ICS supine (trauma bay), basal/subpulmonic large/compressive. Right > left (90%). Bilateral 20% SSP. Loculated post-surgical anterior.
+
+SYMPTOMS:
+
+Sudden ipsilateral pleuritic chest pain (sharp, 90%), dyspnea (70%, acute SOB), tachypnea. Small asymptomatic; large hypoxia, cyanosis; tension anxiety, air hunger.
+
+RISK FACTORS:
+
+Smoking (22x PSP), tall/thin males 20-40y (blebs 89%), COPD/emphysema (SSP 70%), asthma/CF, Marfan/Ehlers-Danlos, prior PTX (50% recur), mechanical ventilation (8%/day), trauma/ribs fx, central lines/subclavian (2%), needle decompression prior.
+
+CLINICAL SIGNS:
+
+Decreased breath sounds/tactile fremitus ipsilateral, hyperresonance percussion, tracheal deviation (tension), tachycardia/hypotension (large/tension), JVD/S3 (RV strain). US bedside confirms.
+
+DIFFERENTIAL DIAGNOSIS:
+
+Pneumothorax mimics bullous disease, artifacts, other lucencies; history/imaging differentiate. Bullae/emphysema (thick irregular walls >1cm, centrilobular dots, no pleural line, hyperinflation; HRCT confirms). Skin folds (wavy non-anatomic, rib cross, no hyperlucency). Mach band artifact (normal markings beyond, no deep sulcus). Pleural effusion reverse (opacity not lucency). Pneumomediastinum (continuous diaphragm absent, retrosternal air, subcutaneous emphysema). Acute PE (wedge infarct opacity, no line, D-dimer/Wells high). Rib fx (trauma history, no line). Large bulla (check prone CT air-fluid). Why confused: all apical hyperlucent; pleural line pathognomonic (absent markings peripheral key), but small <2% miss rate erect apex poor insp; supine deep sulcus subtle (20% overlooked). US rules 99% sens anterior (sliding present bilateral excludes). Tension vs large: shift/depression (clinical instability mandates needle). SSP vs PSP: underlying disease (PFTs bullae). Iatrogenic vs traumatic: procedure timing. Recheck serial X-rays (progression). CT if equivocal/small anterior (95% sens). Artifacts dismissed by US/CT. Pneumonia apical scarring lucent mimic no line. Empyema air locules (fluid level). 10-15% radiology miss; clinical correlation essential.
+
+LOCATION CLUES:
+
+Location refines etiology, management. Apical erect: PSP bleb (young smoker, conservative <3cm), no shift. Anterior supine 2nd ICS: trauma/barotrauma (needle decompress if unstable), high anterior probe US. Deep sulcus basal: supine large/occult (30% missed, CT confirm). Subpulmonic: mimics effusion elevation, lateral X-ray line. Bilateral: SSP COPD/vent (intubate), poor prognosis. Loculated post-op anterior: VATS. Right upper: subclavian line. Changes diagnosis: spontaneous small obs; traumatic any size tube; tension anywhere emergent. US lung point estimates size (peripheral small). Associated subq emphysema: tracheobronchial injury. Hemopneumothorax: air-fluid CT. Pediatric apical FB rare. Smoker apical bullae vs PTX CT. Anterior US rules supine pitfalls. Tension diaphragmatic depression >2cm needle stat. Recurrence apical pleurodesis. Quantify: apex-to-coupola >3cm intervene. Symptoms + loc: sudden pain apical = PSP; blunt trauma anterior = hemopneumo.
+
+SEVERITY AND RISK:
+
+Medium/High risk (small stable low, symptomatic/large medium 5-10% recur risk, tension high imminent collapse/shock).
+
+RECOMMENDED ACTION:
+
+Confirm X-ray/US/CT; small (<2cm stable) oxygen/supine obs 4-6h serial films; symptomatic/large (>3cm/>20%) needle aspirate then pigtail/chest tube 16-20Fr; tension immediate 14G 2nd ICS midclavicular decompress then tube. Pleurodesis/video-assisted thoracoscopic surgery (VATS) recurrent. Treat cause (abx empyema).
+
+COMMON MISTAKES:
+
+Missing small supine (deep sulcus overlooked 25%, US/CT), skin fold as PTX (no hyperlucency), over-tube small stable (recurs 50% anyway), delay tension (clinical > film), no expiration small equivocal, ignoring US (bedside 2min), bilateral miss (one side distracts), post-tube reaccumulation (apical film), bulla as PTX (CT first), artifact Mach (peripheral markings present

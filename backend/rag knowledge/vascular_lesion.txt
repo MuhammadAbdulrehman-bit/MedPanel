@@ -1,0 +1,56 @@
+
+DISEASE:
+
+vascular_lesion
+
+CATEGORY:
+
+skin_lesion
+
+ALIASES:
+
+vascular malformation, hemangioma, port-wine stain, strawberry mark, AVM, venous malformation, capillary malformation
+
+DESCRIPTION:
+
+Vascular lesions encompass a spectrum of congenital and acquired abnormalities of blood/lymphatic vessels, classified per ISSVA as vascular tumors (benign infantile hemangiomas proliferating endothelial GLUT1+ 70% involute) vs vascular malformations (structural errors present birth non-proliferative grow proportional body). Tumors: infantile hemangioma (IH 5-10% whites focal 60%/segmental 40%), rapidly involuting congenital hemangioma (RICH), noninvoluting (NICH), tufted angioma/kaposi stem cell. Malformations: simple capillary (port-wine C), venous (VM phleboliths), lymphatic (LM cystic), arterial (AM fast-flow bruit), combined (CVM venolymphatic), AVM/AVF (nidus direct shunt). Pathophysiology: IH VEGF-driven proliferation apoptosis regression; malformations somatic mutations PIK3CA (30% slow-flow), RASA1 (fast-flow). Incidence IH 4% term/23% preterm F>M 3:1; malformations 1-8%. Complications ulceration 15% IH, Kasabach-Merritt (tufted), PHACE (segmental facial IH 30% anomalies), LUMBAR (sacral). MRI/DUS gold standard; beta-blockers mainstay therapy.
+
+VISUAL APPEARANCE:
+
+Infantile hemangioma: blanch precursor 2wk superficial strawberry red lobulated dermal blanchable, deep blue-purple subcutaneous smooth, mixed bulging. Port-wine stain: pink-red macular sun-exposed fade darkens cobblestone adult. VM: blue compressible spongy phleboliths palpable. LM: clear transilluminate. AVM: pulsatile warm thrill bruit pink-red nidus. Dermoscopy: IH lacunae red globules/comma vessels; port-wine blotches structured red. US: IH high-flow phasic, VM low-flow venous lakes. MRI T2 hyperintense flow voids fast-flow, phleboliths T1/T2 bloom. Confocal: dilated tortuous vessels. Evolves IH rapid grow 3-9mo plateau involute 90% 5y white fat.
+
+TYPICAL LOCATIONS:
+
+IH head/neck 60% (beard distribution mandibular risky airway), trunk/limbs 30%, liver 15% multifocal. Port-wine V1 trigeminal (Sturge Weber leptomeningeal). VM limbs intramuscular, head/neck mucosal. LM neck/hypoglossal cystic. AVM brain/Cerebral dural. Sacral lumbosacral.
+
+SYMPTOMS:
+
+IH asymptomatic grow; ulceration painful bleed crust (15%), vision/airway obstruction, heart failure hepatic high-flow. Port-wine cosmetic. VM ache Valsalva thrombophlebitis.
+
+RISK FACTORS:
+
+IH female/prematurity/white (OR 10-20), placental anomaly. Malformations sporadic; PHACE large segmental facial.
+
+CLINICAL SIGNS:
+
+IH warm compressible lobulated blanch, deep firm smooth. Port-wine geographic dermatomal. VM soft blue refill slow, phleboliths hard. Thrill bruit AVM.
+
+DIFFERENTIAL DIAGNOSIS:
+
+Red birthmarks clinical/imaging differentiates. Infantile hemangioma vs RICH/NICH (present birth rapid grow IH vs stable), tufted angioma (coalescing plaque Kasabitch). Port-wine vs salmon patch (fades 2y midline), nevus flammeus neonatorum (resolves). VM vs hemangioma (low-flow compressible vs high phasic), varix. LM vs ranula/thyroglossal (neck cystic). AVM vs cephalocele pulsatile (MRI nidus). Kaposiform vs tufted (consumptive coagulopathy thrombocytopenia). Why detailed: all red vascular; IH GLUT1+ involutes vs malformation stable proportional (DUS IH high diastolic vs VM venous spectrum); port-wine T1 hyper T2 iso no flow void vs VM T2 hyper phlebolith bloom; AVM nidus early venous fill vs tumor mass-like. MRI flow quantification differentiates fast/slow. Biopsy rare (risk bleed) GLUT1 IH. US sens 95% superficial. Stability post-infancy malformation vs regression IH. PHACE screen echocardiogram/MRI brain. 30% mislabel hemangioma malformation overtreat. Serial photo/MRI growth.
+
+LOCATION CLUES:
+
+Distribution subtypes syndromic risk/therapy. Facial segmental IH V1 beard (PHACE 30% aortic coarctation stroke eye, MRI/MRA/ECHO baseline). Mandibular/premature airway obstruction propranolol urgent. Hepatic multifocal (beta-blocker vs embolization high-output failure). Lumbosacral (LUMBAR tethered cord urogenital MRI spine). Port-wine V1 midline leptomeningeal Sturge Weber glaucoma seizures EEG/MRI eye. Limb VM intramuscular pain compression sclerotherapy. Head/neck mucosal VM epistaxis/sinus NdYAG. Scalp cirsoid aneurysm bruit. Sacral T11-L5 tethered MRI. Changes profoundly: facial PHACE multidisciplinary; hepatic echo cardiac; sacral neurosurgery; airway intubate prone. US/MRI extent plan. Rapid grow IH beta-blocker stat vs malformation sclerotherapy elective. Associated ulceration functional. Precursor blanch IH vs static port-wine.
+
+SEVERITY AND RISK:
+
+Low/Medium risk (IH 90% involute low, functional/ulcer medium, syndromic high; malformations cosmetic/pain low, AV shunt high failure).
+
+RECOMMENDED ACTION:
+
+IH observe small uncomplicated, propranolol 2-3mg/kg/d (strong cardiac/EKG first grow phase), topical timolol superficial, laser post-involute telangiectasia. Malformation sclerotherapy VM/LM (bleomycin doxycycline), embolization AVM, excision segmental. Multidisciplinary vascular anomalies team MRI/DUS baseline. Aspirin/high-flow controversial.
+
+COMMON MISTAKES:
+
+Call all hemangioma (malformation overtreat steroids 0%), delay propranolol ulceration/function (gold standard now), biopsy bleed risk, miss PHACE/LUMBAR no screen, sclerotherapy IH growing (wrong class), laser early IH (recurs stimulates), no MRI extent (underestimate)

@@ -1,0 +1,56 @@
+
+DISEASE:
+
+atelectasis
+
+CATEGORY:
+
+chest_xray
+
+ALIASES:
+
+lung collapse, collapsed lung, lobar collapse, discoid atelectasis, contraction atelectasis
+
+DESCRIPTION:
+
+Atelectasis is the partial or complete collapse of lung tissue due to resorption of alveolar gas distal to airway obstruction, extrinsic compression, or surfactant deficiency, leading to shunting, ventilation-perfusion mismatch, and hypoxemia. It occurs when alveoli deflate from lack of airway patency or external pressure, reducing lung volume by 10-50% in lobar cases, with rapid progression (hours) in obstructive types due to nitrogen washout (FRC drops 20-30%). Classified as obstructive/resorptive (mucus plug, tumor; most common post-op 90%), passive/compression (pleural effusion, pneumothorax), adhesive (surfactant loss, ARDS/hyaline membrane), cicatrization/contraction (fibrosis, post-TB), or rounded (pleural-based folding). Incidence: 15-20% post-general anesthesia, 30-50% ICU patients, higher in elderly/obese (OR 2.5). Pathophysiology: collateral drift via pores of Kohn fails if complete obstruction; hypoxic vasoconstriction limits shunt but overloads right heart. Chronic leads to bronchiectasis, infection. Subtypes: right middle lobe (RML) syndrome (narrow orifice, poor collateral), bibasilar post-op. Complicates 80% abdominal surgery, resolves 24-48h with incentive spirometry.
+
+VISUAL APPEARANCE:
+
+On chest X-ray, atelectasis manifests as homogeneous opacity with volume loss: silhouetting adjacent structures (silhouette sign), air bronchograms (patent bronchi lucent in collapsed lung), fissural displacement upward (right minor fissure horizontalizes), mediastinal/hilar shift ipsilateral, compensatory hyperinflation contralateral. Lobar patterns: RLL triangular retrocardiac (silhouettes right heart/diaphragm), LUL hazy upper with inverted diaphragm (superior segment), RUL superior hyperlucency Golden S sign (tumor buckle). Basilar plate-like linear subpleural 2-5cm. CT: ground-glass triangular opacities posterobasal, juxtaphrenic peak pull, crowding vessels, mucoid impaction high-attenuation branching. US: dynamic consolidation with liver/heart sliding sign absent, bare area shaggy. Lateral CXR essential: RML wedge retrosternal, LLL retrocardiac band. Massive left: white-out with golden loop (aortic arch-pulm artery). Mimics: poor inspiration (elevated diaphragm simulates), rotation (pseudo-density), skin fold (extrapleural lucency). Decubitus differentiates mobile vs fixed.
+
+TYPICAL LOCATIONS:
+
+Dependent basal posterior segments (supine post-op 80%), right > left (narrower bronchus). RLL (35%), LLL (25%), RML (15%), bibasilar (plate). Upper lobes rare unless endobronchial lesion. Rounded peripheral pleural mid-lung.
+
+SYMPTOMS:
+
+Often asymptomatic small; dyspnea (60%, tachypnea >25/min), cough (productive if mucus), hypoxemia (SpO2 drop 5-10%), pleuritic pain (15%), fever (post-op 38-39C from shunt/infection). Severe: acute resp failure, cyanosis.
+
+RISK FACTORS:
+
+Post-op/anesthesia (OR 10), smoking (mucus hypersecretion), obesity (BMI>30, OR 3), age>65, COPD/asthma/CF (airway reactivity), immobility/bedrest, neuromuscular (MG, ALS), rib fractures, foreign body (kids), tumors, shallow breathing (pain/sedation).
+
+CLINICAL SIGNS:
+
+Decreased breath sounds/voice fremitus ipsilateral, dullness percussion, bronchial breathing above collapse, tracheal deviation (lobar), tachycardia, low-grade fever.
+
+DIFFERENTIAL DIAGNOSIS:
+
+Atelectasis overlaps radiographically/clinically with pneumonia, effusion, mass; requires serial imaging, history. Pneumonia (air bronchograms overlap, but no volume loss, fever higher, infiltrates migratory; sputum +Cx vs sterile atelectasis). Aspiration (dependent lobes, necrotizing cavitation, anaerobe Cx) vs passive post-op (resolves spirometry). Pleural effusion (meniscus, no fissural shift, mobile decubitus, split pleura CT) confused as both basal opacity; US differentiates (fluid anechoic vs consolidation). Mass/tumor (fixed, Golden S reverse, enhancement, PET avid) vs resorptive (proximal cutoff, resolves bronch). Pulmonary infarct (wedge pleural, Hampton hump resolves, D-dimer +) vs rounded atelectasis (comet tail vessels CT). ARDS (diffuse bilateral ground-glass, no volume loss) vs linear bibasilar. Post-op day 1 basilar normal variant (transient) vs persistent requiring bronch. RML syndrome (chronic infection) vs aspiration (history). Why detailed confusion: silhouette sign nonspecific (any juxtapleural pathology), air bronchograms in both infection/consolidation/collapse (but patent in atelectasis vs fluid-filled pneumonia), volume loss key but subtle small; CT specificity 95% (juxtaphrenic peak, crowding). History: acute post-op favors atelectasis; chronic smoker tumor. Labs: procalcitonin low atelectasis, high pneumonia. Echo rules PE infarct. Bronch: endobronchial lesion confirms obstruction. 20% overlap post-op, but dynamic US (absent sliding) 90% sens. Lobar collapse mandates tumor rule-out (CT/bronch).
+
+LOCATION CLUES:
+
+Location pinpoints mechanism/etiology, alters workup urgency. Posterobasal dependent (supine ICU 70%): passive compression post-op/anesthesia/mucus, resolves chest physio/CPAP; no bronch if mobile. RLL retrocardiac triangle: silhouette right heart, tented diaphragm; common post-abdominal surgery, favors mucus vs LLL (aortopulmonary window). RML wedge retrosternal lateral: poor collateral, women/obese, chronic aspiration/smoking; bronch if recurrent. LUL hazy superior/inverted: endobronchial mass/TB (80%), urgent CT/bronch. RUL Golden S: central tumor buckle minor fissure. Bibasilar plate: surfactant loss/ARDS/hypoalbuminemia, linear <2cm watchful. Peripheral rounded pleural (2-5cm oval acute angle): folding benign, comet tail CT (vessels curve into); asbestos-related if multiple posterior. Upper lobe: foreign body (kids), tumor (adults). Right > left overall (anatomy). With shift: obstructive central; no shift compressive. Lateral CXR localizes RML/LLL missed PA. Changes diagnosis: endobronchial upper mandates oncology; dependent post-op physio first; recurrent RML bronch/antibiotics; peripheral rounded no biopsy. Associated effusion: compressive; infiltrate: pneumonia. Pediatric endobronchial FB. Post-trauma: hemothorax compression. Quantify volume loss: hilar elevation 2cm = 30% lobe. Symptoms + location: acute dyspnea basal = post-op; hemoptysis upper = tumor. CT refines: subsegmental impaction.
+
+SEVERITY AND RISK:
+
+Low/Medium risk (small bibasilar self-resolve 24h, lobar medium hypoxemia risk 10-20%, massive high resp failure).
+
+RECOMMENDED ACTION:
+
+Incentive spirometry/deep breathing q1-2h, chest physio (postural drainage/percussion), semi-Fowler position, humidified O2/CPAP, bronchoscopy if persistent >48h/lobar/unresolving. Treat cause: mucolytics, abx if infected. Serial CXR 24-48h.
+
+COMMON MISTAKES:
+
+Calling all basal opacities pneumonia (treat atelectasis first, 30% mislabel), ignoring lateral CXR (misses 40% RML/LLL), no physio post-op (prolongs ICU), bronch small basilar (unneeded 80%), missing tumor in upper/lobar (always CT), confusing effusion (US first), over-antibiotics sterile shunt fever, poor inspiration mimic (repeat erect), static films (decubitus dynamic), overlooking aspiration risk (elevate HOB)

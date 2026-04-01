@@ -1,0 +1,56 @@
+
+DISEASE:
+
+benign_keratosis
+
+CATEGORY:
+
+skin_lesion
+
+ALIASES:
+
+seborrheic keratosis, solar lentigo, lichenoid keratosis, stucco keratosis, epidermal nevus, keratosis seborrheica
+
+DESCRIPTION:
+
+Benign keratosis encompasses a group of common non-malignant epidermal proliferations characterized by hyperkeratosis, acanthosis, and papillomatosis, primarily seborrheic keratosis (SK 80-90% cases), representing clonal expansion of immature keratinocytes with FGFR3 mutations (S249C 40%), driven by chronic UV exposure and aging. SK subtypes: common "stuck-on" (waxy brown-black plaques), irritated (erythematous exophytic), clonal (linear dermatosis papulosa nigra dark skin), melanoacanthoma (pigmented macular), inverted follicular (pilosebaceous). Solar lentigo (SL): circumscribed macular hyperpigmentation rete ridge elongation; lichen planus-like keratosis (LPLK): inflamed irritated SK regression; stucco: small white trunk. Prevalence: 80-100% >50y, 1-2 new/year, multiple 10-100; female trunk, male scalp. Histology: horn cysts (pseudohorn nests keratin-filled), squamous eddies (whorls), hyperpigmented basal "dirty feet," no atypia/dermal invasion (vs SCC). Stable/proliferate post-inflammation (Leser-Trelat sign paraneoplastic GI CA), no malignant potential but 3-10% biopsy malignancy mimic.
+
+VISUAL APPEARANCE:
+
+SK classic: 3-30mm (average 1cm) round/oval brown-black-tan waxy verrucous "stuck-on" plaque easy peel, greasy ceroid scale, comedo plugs/milia-like cysts umbilication. Variants: flat macular tan (early), pedunculated trunk, ash-leaf hypopigmented, melanoacanthoma large macular. Dermoscopy: gyri cretaceous white comedo/moth-eaten fingerprint thin regular network, orange milia, corneal pseudohorn pseudocysts, "pearl in oyster" globules. SL: uniform tan-brown macule 5-10mm regular network/fingerprint. LPLK: pink irritated scale central white. Stucco: 1-3mm white filiform seborrheic. RCM: acanthotic honeycomb hyperrefractile keratin lakes. Progression: thickens darkens inflames rarely spontaneous regression. Mimics melanoma inflamed black.
+
+TYPICAL LOCATIONS:
+
+Face/scalp (men 40%), trunk/back (women 50%), upper chest V-neck (sun-exposed), extremities arms/hands, acral rare. SL face/hands dorsal forearms; LPLK trunk irritated sites; stucco ankles/shins women.
+
+SYMPTOMS:
+
+Asymptomatic 90%; pruritus/catch clothing (20% irritated), cosmetic distress large/multiple, rare bleed/ooze trauma.
+
+RISK FACTORS:
+
+Age >50 (90%), fair skin I-III (OR 3), chronic sun (outdoor workers OR 2), family history/genetics (FGFR3), estrogen (postmenopausal women), prior irritated LPLK evolution.
+
+CLINICAL SIGNS:
+
+Waxy stuck-on verrucous no induration/satellite/ulcer (vs SCC), comedo pores visible, peelable surface, multiple symmetric field. Dermoscopy confirmatory gyri/milia.
+
+DIFFERENTIAL DIAGNOSIS:
+
+Scaly pigmented plaques dermoscopy/biopsy rules malignancy. Melanoma (asymmetric irregular border variegated color >6mm evolving, atypical network/blue veil/radial streaks). SCC in situ/Bowen's (indurated red scaling fixed, glomerular vessels surface scale keratin). BCC pigmented (pearly rolled arborizing vessels leaf-like globules). Actinic keratosis (rough sandpaper <1cm tender follicular strawberry). Solar lentigo (flat uniform tan regular network no scale). Condyloma acuminatum (genital filiform HPV). Epidermodysplasia verruciformis (HPV flat warts disseminated). Why detailed: all sun-exposed scaly pigmented; SK gyri cretaceous/milia comedo (sens 92%) vs melanoma chaos polymorphous irregular pigment diffusion (7pt >4 biopsy); SCC keratin white granular vs SK orange pseudohorn; BCC arborizing vs SK hairpin looped; AK red dots follicular opening vs SK white rails. Inflamed SK/LPLK pink rim vs Bowen's sharp demarcated. Histology basaloid acanthosis horn cysts no atypia vs pagetoid melanoma/SCC full atypia. Biopsy 3-10% unexpected CA (2/3 SCC); RCM acanthosis keratin lakes differentiates. Stability years benign vs melanoma doubles 6mo. Leser-Trelat sudden multiple GI workup. Dark skin dermatosis papulosa nigra vs SK facial. 50% clinical misdiagnosis; dermoscopy reduces biopsy 70%.
+
+LOCATION CLUES:
+
+Distribution guides suspicion/therapy. Face/bald scalp/balding men: melanoacanthoma large macular (excision cosmetic), high SCC mimic biopsy threshold. Trunk/back women common pedunculated (shave/excise multiple), irritated LPLK evolution (observe regression). Chest/shoulders V-neck sun-exposed SL→SK field (topical 5FU if dense). Dorsal hands forearms SL predominant (cryo/PDT cosmesis). Acral palms rare hypertrophic (biopsy SCC). Genital condyloma mimic (HPV test). Upper eyelids stucco-like small. Changes profoundly: facial dark >1cm dermoscopy atypical excise (lentigo maligna); trunk inflamed steroid trial first; scalp large pedunculated shave; multiple sudden Leser-Trelat endoscopy/CT. Dark phototypes facial DPN benign vs trunk SK. Associated field cancerization actinic dense topical. Progression scalp → trunk → extremities. Derm pattern gyri universal but facial network mimic lentigo. Rapid growth/ooze biopsy. Pediatric epidermal nevus linear (excision symptomatic).
+
+SEVERITY AND RISK:
+
+Low risk (benign proliferation no malignant potential, cosmetic/symptomatic only, recurs 5-10% incomplete removal).
+
+RECOMMENDED ACTION:
+
+Observe asymptomatic small, shave excision/cosmetic large/irritated (electrodesiccation curettage), cryotherapy liquid N2 10-20s spray single (pigment recur 20%), curettage electrocautery, topical 5FU/ingenol mebutate field dense (strong rec), laser CO2/Erbium ablate. Dermoscopy atypical biopsy. Sun protection SPF50 lifelong.
+
+COMMON MISTAKES:
+
+Biopsy all classic (80% unnecessary), ignore dermoscopy (misdiagnosis 50%), cryotherapy facial cosmesis poor (scarring hypopig), shave inflamed (inflames further), field therapy single lesion (subclinical recur cluster), Leser-Trelat miss GI CA, dark mimic melanoma no 7pt (biopsy unnecessary), no sun protection (new lesions), stucco ankles misdiagnosed wart (parachlorometaxylenol ok)

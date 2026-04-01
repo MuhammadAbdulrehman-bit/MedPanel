@@ -1,0 +1,56 @@
+
+DISEASE:
+
+cardiomegaly
+
+CATEGORY:
+
+chest_xray
+
+ALIASES:
+
+enlarged heart, megacardia, megalocardia, cardiac enlargement
+
+DESCRIPTION:
+
+Cardiomegaly is the abnormal enlargement of the heart, defined radiographically as a cardiothoracic ratio (CTR) greater than or equal to 0.50 on a posterior-anterior (PA) chest X-ray, where the maximum transverse cardiac diameter exceeds half the internal thoracic diameter at the level of the lung apices. This enlargement can affect the left ventricle (most common), right ventricle, atria, or the entire heart, often as a compensatory response to underlying pathology forcing the heart to work harder, such as hypertension, valvular disease, or ischemic cardiomyopathy. It manifests in forms like concentric hypertrophy (wall thickening from pressure overload, e.g., aortic stenosis), eccentric dilation (chamber enlargement from volume overload, e.g., mitral regurgitation), or restrictive patterns (infiltrative diseases). Pathophysiologically, chronic stress activates neurohormonal pathways (renin-angiotensin-aldosterone system, sympathetic drive), leading to myocyte hypertrophy, fibrosis, apoptosis, and eventual systolic/diastolic dysfunction; left untreated, it progresses to heart failure with reduced ejection fraction (HFrEF) or preserved (HFpEF). Prevalence is high in developed nations (1-2% adults), rising with aging populations; it complicates 30-50% of hypertension cases and 70% of end-stage cardiomyopathies. Subtypes include dilated (four-chamber enlargement, idiopathic or viral), hypertrophic (asymmetric septal, genetic), restrictive (amyloidosis), and right-sided (cor pulmonale from COPD). Global burden: 26 million heart failure cases linked, with 50% 5-year mortality if decompensated. Early detection via imaging prevents remodeling.
+
+VISUAL APPEARANCE:
+
+On chest X-ray, cardiomegaly presents as an enlarged, globular cardiac silhouette with CTR >0.50 (measured from right heart border to leftmost point, divided by thoracic width); normal heart is elongated, while enlarged appears spherical or boot-shaped. Specific patterns: left ventricular (LV) enlargement straightens left heart border, bulges lower left; biventricular rounds both ventricles with prominent apex; right ventricular (RV) lifts apex upward ("coeur en sabot"); atrial enlargement adds double contour (left atrial appendage convexity) or splaying of carina (>80 degrees). Lateral view: retrosternal space obliterated (<1cm RV), inferior vena cava plethora (>1.5cm), posterior border overlaps spine. Associated signs: pulmonary venous hypertension (upper lobe diversion, Kerley B lines, batwing edema), pleural effusions blunting angles. CT confirms volumetric enlargement (LV mass >102g/m² women, >128g/m² men); MRI quantifies ejection fraction (<50% systolic dysfunction), wall motion, late gadolinium enhancement (fibrosis). Echocardiography gold standard: LV end-diastolic diameter >5.6cm, hypertrophy >12mm. Artifacts mimic: AP projection inflates CTR 10-20%, scoliosis rotates silhouette, poor inspiration underestimates thoracic width. Massive: "water-bottle" heart occupies >70% thorax.
+
+TYPICAL LOCATIONS:
+
+Primarily global enlargement encompassing ventricles and atria, but segmental: LV apex-dominant in ischemic/dilated cardiomyopathy, basal septum in hypertrophic obstructive (HOCM), RV free wall/outflow in pulmonary hypertension. Radiographically, lower left cardiac border (LV), right upper-mid (RA/RV), hilar (LA). Associated with hilar congestion, basal interstitial markings. Rare focal: pericardial cysts mimic localized bulge.
+
+SYMPTOMS:
+
+Often asymptomatic early (mild CTR 0.50-0.55), progressing to exertional dyspnea (NYHA II-III, 70%), fatigue, orthopnea (2-3 pillows), paroxysmal nocturnal dyspnea, palpitations (AFib 20-30%). Advanced: peripheral edema, ascites, cachexia; acute decompensation: flash pulmonary edema, cardiogenic shock. Chest pain if ischemic etiology. Reduced exercise tolerance from low cardiac output.
+
+RISK FACTORS:
+
+Hypertension (40-50% cases, chronic pressure overload), coronary artery disease/post-MI (scar remodeling), diabetes/obesity (diastolic dysfunction), valvular heart disease (aortic/mitral), alcohol abuse (>80g/day), chemotherapy (anthracyclines), family history/genetic (lamin A/C mutations), sleep apnea (hypoxia), chronic kidney disease (volume overload), thyroid disorders (hyper/hypo), anemia (high-output), arrhythmias (tachy cardiomyopathy), pregnancy (peripartum), smoking/high cholesterol, sedentary lifestyle, age >65. Men higher hypertrophic; women dilated/peripartum.
+
+CLINICAL SIGNS:
+
+S3 gallop (ventricular dysfunction), displaced apex beat (down/out >10cm), murmurs (mitral regurg S3 loud P2), JVD/hepatomegaly (right failure), bibasilar rales, cool extremities (low output), tachycardia, hypotension late-stage. ECG: LVH voltage criteria (Sokolow >35mm), LAE (P mitrale), AFib, Q waves (prior MI).
+
+DIFFERENTIAL DIAGNOSIS:
+
+Cardiomegaly must be distinguished from mimics and causes via multimodality imaging, history, biomarkers (BNP>100pg/mL). Pericardial effusion (water-bottle globe, epicardial fat pad sign, no CTR on CT, tamponade pulsus paradoxus) vs true cardiomegaly (wall motion abnormal echo). Mediastinal widening (AP projection, scoliosis, pectus excavatum distorts silhouette; CTR normal lateral) confused because silhouette overlap, but thoracic CT differentiates vessels/masses. Pleural effusion layers over heart, blunts angles; decubitus mobilizes. Technical pitfalls: rotation (enlarges one side), lordotic (flattens), obesity (soft tissue). Pathologic: Dilated CM (symmetric 4-chamber, EF<40%, alcohol/viral) vs HOCM (asymmetric septum >15mm, outflow gradient >30mmHg, SAM on echo, genetic). Ischemic (regional WMA, CAD on angio) vs idiopathic (no CAD). Valvular: aortic stenosis (concentric LVH, calcified valve, pressure gradient) vs regurgitation (eccentric, holodiastolic flow reversal). Amyloid (sparkly myocardium MRI, low voltage ECG despite LVH) vs hypertensive (normal voltage). Cor pulmonale (RV dominant, pulmonary markings, PH echo) vs left-sided (LV). Tachycardia-induced (EF recovers rate control) vs infiltrative (sarcoid patchy enhancement). Why confused: all enlarge silhouette, dyspnea; differentiate: echo volumes/mass, stress test ischemia, biopsy rare, genetics panels. CTR false positive 15% erect PA only; always lateral + echo. BNP low in athletes (physiologic 5%). High-output (anemia/thyrotoxicosis, warm extremities, low SVR) vs low-output (cold, high SVR). Congenital (ASD/VSD shunts) vs acquired (echo defects). Malignancy (rare metastasis) vs benign. 30% overlap symptoms, but echo specificity 95%.
+
+LOCATION CLUES:
+
+Pattern of enlargement localizes etiology, mandates targeted workup. Global globular (CTR>0.6): dilated CM 80% (idiopathic/viral/ischemic), high-output failure; echo EF key. LV-predominant (left border bulge >2cm below clavicle): hypertension/aortic stenosis/MR (S4, murmur), ischemic apex akinesis; cath/echo gradients. RV-dominant (upturned apex, retrosternal fill lateral): cor pulmonale (PAH/COPD, loud P2, RVE on ECG), PE chronic; RHC pressures >25mmHg mean PA. LA enlargement (double right heart border, splayed carina >3cm): mitral stenosis (rumble, LA thrombus), AFib; TEE size >50mm²/body. RA (right border convexity): tricuspid regurg, constrictive pericarditis (Kussmaul, pericardial knock); septal bounce echo. Asymmetric septal (HOCM): dagger left border, spike helmet; family screen echo. Inferolateral LV (post-MI): Q waves inferior, RCA lesion. Anterior RV (PFO/ASD shunt): oxygenated paradox. Changes diagnosis profoundly: RV shift prompts pulm workup (PFTs, VQ scan); isolated LA mandates rheum (SLE). Hilar LA + Kerley: mitral disease pre echo. Apex displacement left/right predicts LV/RV. Associated consolidation (pneumonia infarct) vs clear lungs (primary CM). Pediatric: congenital; adult athlete physiologic (max CTR 0.55 regression). Post-op CABG pseudo-enlargement resolves. Location + symptoms: exertional dyspnea + LV = hypertensive; nocturnal + RV = sleep apnea. Quantify: CTR progression >0.05/year worsens prognosis. CT/MRI refines: RV/LV ratio >1 PH. Unilateral border bulge: technical artifact until confirmed.
+
+SEVERITY AND RISK:
+
+Medium risk (mild CTR 0.50-0.55 watchful, moderate 0.55-0.65 treat cause, severe >0.65/EF<35% high mortality 20-50% 1-year; depends on etiology, reversible if early).
+
+RECOMMENDED ACTION:
+
+Confirm PA erect CXR CTR, add lateral; urgent echo (EF, wall thickness, valves, EF<50% admit). ECG, BNP, troponin, lipids, HbA1c. Treat cause: ACEi/BB diuretics HFrEF, BP control <130/80, statins CAD, ICD EF<35%. Lifestyle: low salt, exercise, smoking cessation. Advanced: CRT, transplant LVAD. Serial echo every 6-12mo.
+
+COMMON MISTAKES:
+
+Overcalling CTR on AP/portable films (false +25%, use echo); physiologic athlete heart (EF normal, decondition regresses); ignoring lateral view (RV missed); attributing solely to HTN without echo/valve check (miss amyloid/HOCM); delaying ICD (EF<30% primary prev); missing reversible (tachy/alcohol, control first); false normal CTR inspiration poor (repeat full); pericardial effusion as CM (echo global hypokinesis vs swing); no BNP (rules HF <50pg/mL); overlooking pulm HTN RV signs; biopsy unnecessary early (echo/MRI first); progression despite meds (noncompliance, ischemia add-on). Asymptomatic no pan-echo (risk strat)

@@ -33,96 +33,189 @@ def run_report_agent(
     }
     scan_label = scan_labels.get(scan_type, scan_type)
 
-    # Build scan-specific instructions
+    # ─── Scan-specific reasoning instructions ────────────────────────
     if scan_type == "chest_xray":
         specific_instructions = """
 IMPORTANT FOR CHEST X-RAY INTERPRETATION:
 - Infiltration + Consolidation together = strong clinical indicator of pneumonia.
-- Synthesize radiological findings into a single clinical picture rather than a list.
+- Infiltration alone could be pneumonia, pulmonary edema, or hemorrhage — 
+  use RAG context to differentiate.
+- Effusion + Cardiomegaly together suggests heart failure, not infection.
+- Upper lobe findings: consider TB or atypical pneumonia.
+- Bilateral symmetric findings: consider pulmonary edema over pneumonia.
+- Synthesize ALL radiological findings into ONE clinical picture.
+- Never just list findings — always explain what they mean together.
+- If findings contradict each other clinically, say so and explain why.
+- Always mention what conditions were ruled out and why.
 """
-    elif scan_type == "skin_lesion" or scan_type == "skin":
+    elif scan_type in ["skin_lesion", "skin"]:
         specific_instructions = f"""
 IMPORTANT FOR SKIN LESION INTERPRETATION:
-- Body location is a CRITICAL clinical anchor.
-- BCC and Actinic Keratosis (AK) are statistically dominant on sun-exposed areas (face, neck, scalp).
-- If the CV Model suggests a benign 'Nevus' but the location is 'Face' or 'Lower Lip', you MUST cross-reference with RAG context to check if BCC or AK should be mentioned as a clinical suspicion.
-- Highlight any contradictions between visual confidence and clinical probability.
-{f'- Patient reported lesion on: {body_location}' if body_location else '- No location provided, note this limitation'}
+- Body location is the MOST CRITICAL clinical anchor for skin diagnosis.
+- BCC and Actinic Keratosis are statistically dominant on sun-exposed areas 
+  (face, nose, ears, neck, scalp, lower lip, dorsal hands).
+- Dermatofibroma is most common on lower legs.
+- Melanoma is most common on back (men) and legs (women).
+- If CV model suggests benign Nevus but location is face/lower lip/ear, 
+  you MUST flag BCC or AK as clinical suspicion regardless of confidence.
+- Always apply ABCDE criteria reasoning for pigmented lesions.
+- Highlight any contradictions between visual confidence and location probability.
+- Consider patient age and sun exposure history if provided.
+{f'- Patient reported lesion location: {body_location}' if body_location else '- WARNING: No body location provided. Note this as a significant limitation — location is essential for accurate skin diagnosis.'}
 """
     else:
         specific_instructions = """
 IMPORTANT FOR RETINAL SCAN INTERPRETATION:
-- Grade diabetic retinopathy clearly (No DR / Mild / Moderate / Severe / Proliferative).
-- Ensure referral urgency matches the DR grade.
+- Grade diabetic retinopathy clearly: No DR / Mild / Moderate / Severe / Proliferative.
+- Ensure referral urgency strictly matches DR grade:
+  No DR / Mild → Annual screening
+  Moderate → Ophthalmology within 3-6 months
+  Severe → Ophthalmology within 1 month
+  Proliferative → URGENT ophthalmology within 1 week
+- Always connect retinal findings to diabetes management.
+- Mention macular edema risk at Moderate+ grades.
+- Emphasize that good glycemic control slows progression.
 """
 
-    # THE CORE REASONING PROMPT
-    prompt = f"""You are a Senior Clinical Diagnostic Agent. Your task is to reconcile visual data with clinical context.
+    # ─── Core reasoning prompt ────────────────────────────────────────
+    prompt = f"""You are a Senior Clinical Diagnostic Agent. Your task is to 
+REASON about medical image findings — not just format them.
 
-### INPUT DATA:
-PATIENT: {patient_name}
-SCAN TYPE: {scan_label}
-BODY LOCATION: {body_location if body_location else 'Not Provided'}
-PRIMARY CV FINDING: {top_finding}
+═══════════════════════════════════════════
+PATIENT DATA:
+═══════════════════════════════════════════
+Patient Name: {patient_name}
+Scan Type: {scan_label}
+Body Location: {body_location if body_location else 'Not Provided'}
+Primary CV Finding: {top_finding}
+CV Risk Level: {risk_level}
 
-### CV MODEL OUTPUTS:
+═══════════════════════════════════════════
+CV MODEL OUTPUTS (visual analysis only):
+═══════════════════════════════════════════
 {findings_text}
 
-### CLINICAL KNOWLEDGE BASE (RAG):
+═══════════════════════════════════════════
+CLINICAL KNOWLEDGE BASE (RAG):
+═══════════════════════════════════════════
 {rag_context}
 
-### RECONCILIATION RULES:
-1. THE CV MODEL IS A SUGGESTER: It analyzes pixels and can be fooled by visual similarities (e.g., mistaking BCC for a Nevus).
-2. RAG & LOCATION ARE FACTS: Use these to validate or challenge the CV model. 
-3. MALIGNANCY OVERRIDE: If the CV model predicts a benign condition (Low Risk) but the RAG evidence suggests the location is High Risk for malignancy (e.g. Face/BCC), you MUST address the possibility of the malignant condition in the summary.
+═══════════════════════════════════════════
+RECONCILIATION RULES:
+═══════════════════════════════════════════
+1. CV MODEL IS A SUGGESTER: It analyzes pixels only. It can be fooled by 
+   visual similarities. Treat its output as one data point, not the answer.
+
+2. RAG CONTEXT IS CLINICAL TRUTH: Use medical literature to validate OR 
+   challenge the CV prediction. If they agree, confirm it. If they conflict, 
+   explain which is more likely and why.
+
+3. MALIGNANCY OVERRIDE: If CV predicts benign but location or literature 
+   suggests malignancy risk — you MUST flag this clearly. Patient safety 
+   takes absolute priority over model confidence.
+
+4. CONFIDENCE MATTERS: A finding at 95% confidence is very different from 
+   35%. Reflect this uncertainty in your clinical language.
+
+5. DIFFERENTIAL DIAGNOSIS: Always mention the top 2-3 alternative diagnoses 
+   from RAG context. Explain what would differentiate them clinically.
+
+6. HONEST UNCERTAINTY: If evidence is ambiguous, say so clearly rather than 
+   forcing a confident conclusion. Use language like "consistent with", 
+   "cannot exclude", "warrants further evaluation".
 
 {specific_instructions}
 
-Generate a structured clinical report with EXACTLY these sections:
+═══════════════════════════════════════════
+GENERATE REPORT WITH EXACTLY THESE SECTIONS:
+═══════════════════════════════════════════
 
 ## 📋 SCAN SUMMARY
-Summarize the findings. If there is a contradiction between the CV model and the clinical context (e.g. location-based risk), clearly state: "While the visual model suggests [X], the clinical location of [Location] necessitates a differential diagnosis of [Y]."
+2-3 sentences. State the primary CV finding and its confidence. If there is 
+a contradiction between CV output and clinical context, clearly state:
+"While the visual model suggests [X] with [Y]% confidence, the clinical 
+location of [location] and medical literature raises concern for [Z]."
 
 ## 🔍 DETAILED FINDINGS
-Explain the visual findings in plain language. Group related findings.
+Explain each significant CV finding in plain language. Group related findings 
+together. Explain what they mean clinically, not just what they are.
+For X-ray: what do these findings together suggest?
+For skin: what do the confidence scores tell us about certainty?
+For retinal: what stage does this represent?
+
+## 🧠 CLINICAL REASONING
+This is the most important section. 
+- Does the CV prediction align with medical literature for this case?
+- What does the RAG context say about the top finding?
+- Are there any red flags the CV model may have missed?
+- What is the most likely clinical diagnosis considering ALL evidence?
+- What are the top 2 differential diagnoses and how would you distinguish them?
 
 ## 📍 LOCATION ANALYSIS
-(Include ONLY for skin scans)
-Detail how the specific body location affects the risk. Explain why certain conditions (like BCC or AK) are more probable due to this location.
+(Include for skin scans. For xray/retinal, briefly mention relevant 
+anatomical location significance.)
+For skin: How does the body location change the diagnosis probability?
+Which conditions are more or less likely at this specific location?
+Does the location support or contradict the CV model's prediction?
 
 ## ⚠️ RISK ASSESSMENT
 Risk Level: {risk_level}
-Explain the reasoning. If clinical context increases the risk beyond what the CV model calculated, state it clearly.
+Explain the reasoning behind the risk level. If clinical context increases 
+risk beyond what the CV model calculated, explicitly state the upgraded risk 
+and why. Use the RAG evidence to justify.
 
 ## 💊 CLINICAL RECOMMENDATIONS
-Provide 3-5 actionable steps. Tailor these to the specific findings AND the location.
+3-5 specific, actionable recommendations tailored to:
+- The specific findings
+- The body location (for skin)
+- The patient's risk profile
+Number each recommendation clearly.
 
 ## 👨‍⚕️ REFERRAL SUGGESTION
-Specify the specialist and urgency.
+Specify: which specialist, urgency level, and what information to bring.
+Urgency options: Routine (weeks) / Soon (1-2 weeks) / Urgent (days) / 
+Emergency (same day)
 
 ## ℹ️ DISCLAIMER
-Standard medical AI disclaimer.
+This report was generated by an AI-assisted triage tool using computer 
+vision and medical knowledge retrieval. All findings must be confirmed by 
+a qualified medical professional. This does not constitute a medical 
+diagnosis and should not replace clinical examination.
 
-Keep the tone professional, objective, and cautious."""
+Keep the tone professional, objective, and appropriately cautious.
+Prioritize patient safety in all recommendations."""
 
-    print(f"[Report Agent] Reconciling data for {patient_name}...")
+    print(f"[Report Agent] Reasoning clinical report for {patient_name}...")
 
     response = client.chat.completions.create(
         model="llama-3.1-8b-instant",
         messages=[
             {
                 "role": "system",
-                "content": "You are a clinical diagnostic agent that synthesizes CV findings with medical literature. You prioritize patient safety by highlighting potential malignant risks even if visual models are uncertain."
+                "content": """You are a Senior Clinical Diagnostic Agent with expertise 
+in radiology, dermatology, and ophthalmology. Your role is to REASON about 
+medical findings, not just format them.
+
+Your core responsibilities:
+- Challenge CV model outputs using medical literature and clinical context
+- Identify when visual predictions conflict with clinical probability  
+- Always consider differential diagnoses beyond the top CV prediction
+- Prioritize patient safety — flag malignancy risks even when uncertain
+- Be honest about uncertainty rather than projecting false confidence
+- Use location, symptoms, and risk factors to refine diagnosis probability
+
+You think like a senior clinician reviewing a junior resident's assessment.
+You never blindly accept the CV model's output — you interrogate it."""
             },
             {
                 "role": "user",
                 "content": prompt
             }
         ],
-        temperature=0.2, # Lower temperature for higher consistency
-        max_tokens=2000
+        temperature=0.2,
+        max_tokens=2500
     )
 
     report = response.choices[0].message.content
-    print(f"[Report Agent] Reasoning report generated successfully")
+    print(f"[Report Agent] Clinical reasoning report generated successfully")
     return report

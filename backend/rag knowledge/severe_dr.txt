@@ -1,0 +1,56 @@
+
+DISEASE:
+
+severe_dr
+
+CATEGORY:
+
+retinal
+
+ALIASES:
+
+severe nonproliferative diabetic retinopathy, severe NPDR, ETDRS level 60-80, pre-proliferative DR, 4-2-1 rule
+
+DESCRIPTION:
+
+Severe diabetic retinopathy (severe NPDR) represents a critical pre-proliferative stage defined by the ETDRS "4-2-1 rule": any one of (1) ≥20 intraretinal hemorrhages/DBH in each of ≥4 quadrants, OR (2) definite venous beading (VB) in ≥2 quadrants, OR (3) prominent intraretinal microvascular abnormalities (IRMA) in ≥1 quadrant, with moderate NPDR features (MA/HE/CWS) and excluding neovascularization (NVD/NVE), vitreous hemorrhage (VH), or tractional retinal detachment (TRD). Indicates extensive capillary closure (>50% non-perfusion UWF), severe ischemia driving VEGF surge (IRMA shunts), with 50% 1-year/15% 2-year risk to high-risk PDR requiring urgent panretinal photocoagulation (PRP); 26% 1-year severe vision loss untreated. Prevalence 10-20% advanced DM >15y; UWF unmasks 40% peripheral 4-2-1 missed standard fields. OCT reveals DRIL/ELM disruption; FA extensive non-perfusion/IRMA non-leak. Rapid progression pregnancy/HbA1c>10%.
+
+VISUAL APPEARANCE:
+
+Fundus: dense blot hemorrhages (≥20/quadrant posterior/mid-peripheral), sausage-like VB loops/stems (2+ quadrants), bushy red IRMA loops (1+ quadrant), scattered MA/HE/CWS background; vessels tortuous attenuated. OCT: multilayer cysts DRIL (inner layer disorganization), outer retinal hyperreflectivity, HE plaque-like. FA: widespread capillary dropout black holes, IRMA hyperflourescent non-leak, VB staining. UWF: peripheral hemorrhages/IRMA/VB triple standard density. Progression: IRMA → NVE tufts. Mimics: OIS (mid-peripheral loop VB).
+
+TYPICAL LOCATIONS:
+
+Mid-peripheral quadrants (IRMA/VB 70%), posterior pole temporal/inferior (DBH 50%), bilateral symmetric 90%. UWF far-peripheral ischemia dominant.
+
+SYMPTOMS:
+
+Asymptomatic 70%; floaters (VH imminent 10%), blur (CME 30%), field loss peripheral non-perfusion.
+
+RISK FACTORS:
+
+DM >15y (OR 10), HbA1c >9% (OR 5), HTN/nephropathy (OR 4), anemia/pregnancy/smoking/rapid control drop.
+
+CLINICAL SIGNS:
+
+Dense blots all quadrants/VB stems/IRMA bushes mid-periphery, macular HE/CWS, OU symmetric severe.
+
+DIFFERENTIAL DIAGNOSIS:
+
+Pre-PDR ischemia vs mimics; 4-2-1+UWF/OCTA differentiates. Moderate NPDR (no 4-2-1, 12% 1y progress vs 50% severe). High-risk PDR (NVD/NVE/VH/TRD). Ocular ischemic syndrome (mid-peripheral IRMA/VB loop mid-dilation severe). HTN (flame >> blot, no IRMA). BRVO (sector IRMA collateral). Sickle cell (sea-fan peripheral). Radiation (post-equatorial IRMA). Why detailed: dense vascular changes; severe DR 4-2-1 (UWF peripheral IRMA non-perfusion >10DD) vs moderate scattered; OIS mid-dilation+carotid stenosis Doppler; OCTA FAZ >0.7mm²+asymmetry BRVO; FA IRMA patent non-leak vs NVE disc/new leak; 3mo stability severe vs rapid PDR. Nephropathy → DN. Type 1 explosive vs type 2 smoldering. Sens 7-field 80%; UWF 98%.
+
+LOCATION CLUES:
+
+All 4 quadrants DBH: fulminant (PRP now). VB 2+ quadrants superior/inferior: ischemia dominant (UWF PRP prep). IRMA 1+ quadrant temporal: highest NVE risk (anti-VEGF bridge). Posterior macular CSME+4-2-1: inject+PRP. Asymmetric: carotid/OIS Doppler. Peripheral UWF-only 4-2-1: subclinical severe (q1-2mo). No posterior+peripheral: pure ischemia fenofibrate. Optic disc pre-NVD tuft. Changes profoundly: peripheral IRMA → urgent PRP/anti-VEGF; macular CSME → inject first; bilateral 4-2-1 → admit systemic; unilateral → vascular imaging; pregnancy → weekly. Type 1 inferior VB → nephropathy urgent.
+
+SEVERITY AND RISK:
+
+High risk (50% 1y PDR, q2-4mo UWF/PRP referral).
+
+RECOMMENDED ACTION:
+
+Urgent retina specialist (1-2mo), PRP scatter laser/anti-VEGF (ranibizumab/aflibercept) if high-risk follow imminent, CSME focal/grid+anti-VEGF, UWF/OCTA/FA baseline, HbA1c <7%/BP <130/80/fenofibrate max.
+
+COMMON MISTAKES:
+
+q6mo screen (50% 1y PDR), miss UWF peripheral 4-2-1 (40%), call moderate (delay PRP), no anti-VEGF IRMA (NVE bridge), ignore CSME (permanent loss), pregnancy q3mo, asymmetric no carotid Doppler, nephropathy skip dialysis plan
