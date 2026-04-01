@@ -3,7 +3,7 @@
 
 > A production-grade multi-agent AI system that analyzes medical images and generates structured clinical reports. Upload a chest X-ray, skin lesion, or retinal scan — three specialized AI agents analyze the image, retrieve relevant medical literature, and synthesize a reasoning-first clinical report.
 
-**[Live Demo](https://your-vercel-url.vercel.app)** · **[API](https://fhkhthjkkl-medpanel.hf.space)** · **[HuggingFace Space](https://huggingface.co/spaces/FHKHTHJKKL/MedPanel)**
+**[Live Demo](https://mediscan-web.vercel.app/)** · **[API](https://fhkhthjkkl-medpanel.hf.space)** · **[HuggingFace Space](https://huggingface.co/spaces/FHKHTHJKKL/MedPanel)**
 
 ---
 
