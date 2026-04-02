@@ -14,9 +14,16 @@ backend/weights/
 
 # Uploads and test files
 uploads/
+
 test_images/
+
 frontend/mediscan-web/.env
 
+backend/models/*.pth
+
+backend/models/*.h5
+
+backend/weights/*.h5
 # ChromaDB vector database
 backend/rag/chroma_db/
 
