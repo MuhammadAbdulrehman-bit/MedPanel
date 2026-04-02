@@ -15,6 +15,7 @@ backend/weights/
 # Uploads and test files
 uploads/
 test_images/
+frontend/mediscan-web/.env
 
 # ChromaDB vector database
 backend/rag/chroma_db/
@@ -26,3 +27,5 @@ Thumbs.db
 node_modules/
 dist/
 env/
+
+

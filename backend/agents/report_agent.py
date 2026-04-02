@@ -213,7 +213,7 @@ You never blindly accept the CV model's output — you interrogate it."""
             }
         ],
         temperature=0.2,
-        max_tokens=2500
+        max_tokens=1500
     )
 
     report = response.choices[0].message.content
