@@ -50,7 +50,7 @@ def run_rag_agent(scan_type: str, findings: list, body_location: str = None) -> 
         query_embedding = embedder.encode(query).tolist()
         results = collection.query(
             query_embeddings=[query_embedding],
-            n_results=min(8, count)
+            n_results=min(4, count) # REDUCED from 8 to 4 to stay under token limits
         )
 
         context = ""
@@ -59,7 +59,6 @@ def run_rag_agent(scan_type: str, findings: list, body_location: str = None) -> 
             print(f"[RAG Agent] Found {len(results['documents'][0])} relevant chunks for primary findings")
 
         # 2. CLINICAL SAFETY QUERY: If it's skin, always check high-risk conditions for that location
-        # This allows the Report Agent to "Reason" if the CV model missed a BCC/SCC
         if scan_type == "skin" and body_location:
             safety_query = f"High risk malignant skin conditions for {body_location} location BCC SCC AK squamous cell carcinoma"
             print(f"[RAG Agent] Running Safety Query for high-risk location: {body_location}")
@@ -67,7 +66,7 @@ def run_rag_agent(scan_type: str, findings: list, body_location: str = None) -> 
             safety_embedding = embedder.encode(safety_query).tolist()
             safety_results = collection.query(
                 query_embeddings=[safety_embedding],
-                n_results=min(4, count)
+                n_results=min(2, count) # REDUCED from 4 to 2 to stay under token limits
             )
             
             if safety_results and safety_results["documents"]:
@@ -76,7 +75,8 @@ def run_rag_agent(scan_type: str, findings: list, body_location: str = None) -> 
                 context = context + "\n" + safety_context
                 print("[RAG Agent] Injected safety context for differential diagnosis")
 
-        return context if context else get_fallback_context(scan_type, top_conditions, body_location)
+        # FINAL CAP: Ensure context string doesn't exceed ~2500 chars (approx 700 tokens)
+        return context[:2500] if context else get_fallback_context(scan_type, top_conditions, body_location)
 
     except Exception as e:
         print(f"[RAG Agent] Error: {e}")

@@ -188,7 +188,7 @@ Prioritize patient safety in all recommendations."""
     print(f"[Report Agent] Reasoning clinical report for {patient_name}...")
 
     response = client.chat.completions.create(
-        model="llama-3.1-8b-instant",
+        model="llama-3.3-70b-versatile",
         messages=[
             {
                 "role": "system",
@@ -213,7 +213,7 @@ You never blindly accept the CV model's output — you interrogate it."""
             }
         ],
         temperature=0.2,
-        max_tokens=1500
+        max_tokens=1000
     )
 
     report = response.choices[0].message.content
